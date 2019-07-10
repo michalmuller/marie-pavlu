@@ -15,6 +15,8 @@ module.exports = {
     },
     extend: {
       colors: {
+        pink: '#F16783',
+        'dark-pink': '#E3506E',
         'light-blue': '#ECF6FB',
         'primary-text': '#242424',
         'secondary-text': '#626470',

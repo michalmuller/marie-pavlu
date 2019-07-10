@@ -23,7 +23,7 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap");
 
 body {
-  background-color: #f7f7f7;
+  background-color: white;
   font-family: "Nunito", sans-serif;
 }
 </style>
