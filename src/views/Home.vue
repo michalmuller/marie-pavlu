@@ -1,12 +1,14 @@
 <template>
-  <div class="home container">
-    <p>Hello from home</p>
+  <div class="mb-12">
+    <hero-section></hero-section>
   </div>
 </template>
 
 <script>
+import HeroSection from "@/components/HeroSection";
 export default {
   name: "home",
+  components: { HeroSection },
 
   data() {
     return {};

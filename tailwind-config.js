@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        cyan: '#c9c9c9',
+        'light-blue': '#ECF6FB',
         'primary-text': '#242424',
         'secondary-text': '#626470',
       },
