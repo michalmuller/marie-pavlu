@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="font-body text-primary-text antialiased leading-tight">
     <navigation></navigation>
-    <router-view />
+    <router-view class="mt-16" />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="container flex flex-wrap flex-row my-12">
-    <h1 class="w-full text-3xl font-bold">Ordincani hodiny</h1>
+  <div id="opening-hours" class="container flex flex-wrap flex-row my-12">
+    <h1 class="w-full text-3xl font-bold">Ordinační hodiny</h1>
     <div class="flex flex-wrap lg:flex-no-wrap">
       <div class="lg:w-1/2 w-full lg:mr-10">
         <h3 class="text-xl mt-8 font-semibold">Jablonec nad Nisou</h3>

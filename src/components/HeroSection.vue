@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- HERO IMAGE -->
-    <div class="hero-image">
+    <div id="home" class="hero-image">
       <div class="flex justify-end introduction-container">
         <div class="w-1/2 mt-12 p-10 introduction rounded-lg rounded-r-none">
           <h1 class="text-3xl font-bold mb-2">Váš praktický lékař</h1>

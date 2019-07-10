@@ -3,6 +3,7 @@
     <hero-section></hero-section>
     <opening-hours-section></opening-hours-section>
     <specialization-section></specialization-section>
+    <equipment-section></equipment-section>
   </div>
 </template>
 
@@ -10,9 +11,15 @@
 import HeroSection from "@/components/HeroSection";
 import OpeningHoursSection from "@/components/OpeningHoursSection";
 import SpecializationSection from "@/components/SpecializationSection";
+import EquipmentSection from "@/components/EquipmentSection";
 export default {
   name: "home",
-  components: { HeroSection, OpeningHoursSection, SpecializationSection },
+  components: {
+    HeroSection,
+    OpeningHoursSection,
+    SpecializationSection,
+    EquipmentSection
+  },
 
   data() {
     return {};
