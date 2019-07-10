@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex flex-wrap justify-between flex-row py-12">
+  <div id="equipment" class="container flex flex-wrap justify-between flex-row py-16">
     <div class="w-1/2 pr-10">
       <img src="../../public/img/marie.png" alt />
     </div>

@@ -31,9 +31,11 @@
             v-smooth-scroll="{ duration: 1200,  offset: -92 }"
             class="cursor-pointer block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
           >Ordinační hodiny</a>
-          <p
+          <a
+            href="#equipment"
+            v-smooth-scroll="{ duration: 1200,  offset: -92 }"
             class="cursor-pointer block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
-          >Služby</p>
+          >Služby</a>
           <p
             class="cursor-pointer block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
           >Kontakt</p>

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-light-blue">
-    <div class="container flex flex-wrap justify-between flex-row py-12">
+    <div class="container flex flex-wrap justify-between flex-row py-16">
       <div class="w-2/5">
         <h1 class="text-3xl font-bold">
           Specializujeme se v tomhle

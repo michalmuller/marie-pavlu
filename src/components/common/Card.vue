@@ -1,7 +1,7 @@
 <template>
   <div
     :class="classes"
-    class="card w-1/3 rounded-lg p-8 pt-6 mb-12 shadow-lg"
+    class="card w-1/3 rounded-lg p-8 pt-6 mb-16 shadow-lg"
     :style="{background: `linear-gradient(to right, ${colorFrom}, ${colorTo})`}"
   >
     <h3 class="text-white font-bold text-2xl mb-2">{{title}}</h3>
