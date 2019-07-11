@@ -16,16 +16,24 @@ export default {
       people: [
         {
           name: "Roman Muller",
+          quote:
+            " Vivamus suscipit eleifend turpis, nec sodales sem vulputate a. Curabitur pulvinar libero viverra,  finibus justo. Etiam eu vehicula felis.",
           img: require("../../public/img/appointment.png"),
           cardMargin: "mr-6"
         },
         {
           name: "Roman Muller",
+          quote:
+            "Lorem ipsum dolor sit amet, velit. Vivamus suscipit eleifend turpis, nec sodales sem vulputate a. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.",
+
           img: require("../../public/img/appointment.png"),
           cardMargin: "mx-3"
         },
         {
           name: "Roman Muller",
+          quote:
+            "Lorem ipsum dolor sit amet, velit. Donec varius vehicula magna sit amet auctor. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.",
+
           img: require("../../public/img/appointment.png"),
           cardMargin: "ml-6"
         }

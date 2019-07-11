@@ -33,12 +33,14 @@
           >Ordinační hodiny</a>
           <a
             href="#equipment"
-            v-smooth-scroll="{ duration: 1200,  offset: -92 }"
+            v-smooth-scroll="{ duration: 1200,  offset: -66 }"
             class="cursor-pointer block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
           >Služby</a>
-          <p
+          <a
+            href="#contact"
+            v-smooth-scroll="{ duration: 1200,  offset: -66 }"
             class="cursor-pointer block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
-          >Kontakt</p>
+          >Kontakt</a>
         </div>
       </nav>
     </div>

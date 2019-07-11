@@ -20,6 +20,7 @@ module.exports = {
         'light-blue': '#ECF6FB',
         'primary-text': '#242424',
         'secondary-text': '#626470',
+        'footer-color-text': '#AFB4BB',
       },
       margin: {
         '96': '24rem',

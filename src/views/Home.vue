@@ -1,11 +1,12 @@
 <template>
-  <div class="mb-12">
+  <div>
     <hero-section></hero-section>
     <opening-hours-section></opening-hours-section>
     <specialization-section></specialization-section>
     <equipment-section></equipment-section>
     <contact-section></contact-section>
     <testimonials-section></testimonials-section>
+    <another-footer></another-footer>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import SpecializationSection from "@/components/SpecializationSection";
 import EquipmentSection from "@/components/EquipmentSection";
 import ContactSection from "@/components/ContactSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import AnotherFooter from "@/components/common/AnotherFooter";
 export default {
   name: "home",
   components: {
@@ -24,7 +26,8 @@ export default {
     SpecializationSection,
     EquipmentSection,
     ContactSection,
-    TestimonialsSection
+    TestimonialsSection,
+    AnotherFooter
   },
 
   data() {

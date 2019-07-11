@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-light-blue">
+  <div id="contact" class="bg-light-blue">
     <div class="container flex flex-wrap justify-between flex-row py-16">
       <div class="w-full">
         <h1 class="font-bold text-3xl">Kontakt</h1>
