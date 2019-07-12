@@ -30,7 +30,7 @@ export default {
       jablonec: [
         {
           name: "Pondeli",
-          hours: "9.00 - 15.00"
+          hours: "9-13 pro akutní 13-15 pro zvané"
         },
         {
           name: "Utery",
@@ -38,7 +38,7 @@ export default {
         },
         {
           name: "Streda",
-          hours: "9.00 - 15.00"
+          hours: "9-13 pro akutní 13-15 pro zvané"
         },
         {
           name: "Ctvrtek",
@@ -46,7 +46,7 @@ export default {
         },
         {
           name: "Patek",
-          hours: "9.00 - 15.00"
+          hours: "9-13 pro akutní 13-15 pro zvané"
         }
       ],
       janov: [
@@ -56,7 +56,7 @@ export default {
         },
         {
           name: "Utery",
-          hours: "9.00 - 15.00"
+          hours: "12-17 pro akutní 17-18 pro zvané"
         },
         {
           name: "Streda",
@@ -64,7 +64,7 @@ export default {
         },
         {
           name: "Ctvrtek",
-          hours: "9.00 - 15.00"
+          hours: "8.30- 12   pro akutní   12-14 pro zvané"
         },
         {
           name: "Patek",

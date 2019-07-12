@@ -4,11 +4,16 @@
     <div id="home" class="hero-image">
       <div class="flex justify-end introduction-container">
         <div class="w-1/2 mt-12 p-10 introduction rounded-lg rounded-r-none">
-          <h1 class="text-3xl font-bold mb-2">Váš praktický lékař</h1>
+          <h1 class="text-3xl font-bold">MUDr. Marie Pavlů</h1>
+          <h2 class="text-lg font-semibold mb-3">Praktický lékař pro dospělé</h2>
           <p class="md:w-5/6 lg:w-3/5 text-secondary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            <br />labore et dolore sed do eiusmod tempor incididunt ut
+            Nase ordinace muzete najit jak v
+            <b>Jablonci nad Nisou</b> tak v
+            <b>Janove nad Nisou.</b>
           </p>
+          <p
+            class="font-bold mt-8 md:w-5/6 lg:w-3/5"
+          >V březnu 2019 jsme převzali pacienty od MUDr. Milana Kvasničky</p>
         </div>
       </div>
     </div>
@@ -20,9 +25,7 @@
           colorTo="#6ebff8"
           :iconPath="require('../../public/img/icons/handshake.svg')"
           title="Osobní přístup"
-          text="O své pacienty jako o své
-                  děti. Dáváme jim svoji
-                  veškerou pozornost"
+          text="Každý člověk je pro mě jedinečný a věnuji mu individuální pozornost"
         ></card>
         <card
           classes="mr-5 ml-5"
@@ -30,19 +33,15 @@
           colorTo="#8E9AFD"
           :iconPath="require('../../public/img/icons/medical-book.svg')"
           title="Profesionalita"
-          text="O své pacienty jako o své
-                  děti. Dáváme jim svoji
-                  veškerou pozornost"
+          text="Více než 15 let praxe"
         ></card>
 
         <card
           colorFrom="#8E9AFD"
           colorTo="#A27BF1"
           :iconPath="require('../../public/img/icons/icu.svg')"
-          title="Vybaveni"
-          text="O své pacienty jako o své
-                  děti. Dáváme jim svoji
-                  veškerou pozornost"
+          title="Sluzby"
+          text="Specializujeme se na péči o diabetiky 2.typu"
         ></card>
       </div>
     </div>
