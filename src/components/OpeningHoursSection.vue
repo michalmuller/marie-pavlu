@@ -18,6 +18,15 @@
         <opening-hours-card label="Janov nad Nisou" :time="janov"></opening-hours-card>
       </div>
     </div>
+    <div class="w-full flex mt-8">
+      <img class="w-12 mr-4" src="../../public/img/icons/syringe.svg" alt />
+      <div>
+        <p class="font-bold text-2xl">Odbery krve</p>
+        <p
+          class="mt-1 text-secondary-text"
+        >Krev odebirame v ut, st, čt 7-9 hod v odběrové místnosti 4.patro poliklinika Jablonec nad Nisou</p>
+      </div>
+    </div>
   </div>
 </template>
 

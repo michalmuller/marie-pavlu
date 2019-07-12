@@ -2,7 +2,7 @@
   <div class="flex w-1/2 pt-8" :class="city.padding">
     <img class="mr-8 icon-city" :class="city.icon" :src="city.iconPath" alt />
     <div>
-      <div v-for="(info, index) in city.information" :key="index" class="flex pb-4">
+      <div v-for="(info, index) in city.information" :key="index" class="flex items-center pb-4">
         <img class="icon-label mr-3" :src="info.iconPath" alt />
         <p>
           <b>{{info.label}}:</b>
