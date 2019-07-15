@@ -1,7 +1,7 @@
 <template>
   <div id="opening-hours" class="container flex flex-wrap flex-row my-16">
-    <h1 class="w-full text-3xl font-bold">Ordinační hodiny</h1>
-    <div class="flex flex-wrap lg:flex-no-wrap">
+    <h1 class="w-full text-3xl font-bold mx-4 sm:mx-0">Ordinační hodiny</h1>
+    <div class="flex flex-wrap lg:flex-no-wrap mx-4 sm:mx-0">
       <div class="lg:w-1/2 w-full lg:mr-10">
         <h3 class="text-xl mt-8 font-semibold">Jablonec nad Nisou</h3>
         <p
@@ -18,7 +18,7 @@
         <opening-hours-card label="Janov nad Nisou" :time="janov"></opening-hours-card>
       </div>
     </div>
-    <div class="w-full flex mt-8">
+    <div class="w-full flex mt-8 mx-4 sm:mx-0">
       <img class="w-12 mr-4" src="../../public/img/icons/syringe.svg" alt />
       <div>
         <p class="font-bold text-2xl">Odbery krve</p>

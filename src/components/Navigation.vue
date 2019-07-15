@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white shadow fixed w-full z-10 top-0">
     <div class="container">
-      <nav class="flex items-center justify-between flex-wrap pt-5 pb-5">
+      <nav class="flex items-center justify-between flex-wrap pt-5 pb-5 mx-4 sm:mx-0">
         <router-link to="#home" v-smooth-scroll="{ duration: 1200,  offset: -92 }">
           <div class="flex items-center flex-shrink-0 mr-6">
             <img class="mr-3 w-5" src="../../public/img/icons/surgeon.svg" alt />
@@ -29,17 +29,17 @@
           <a
             href="#opening-hours"
             v-smooth-scroll="{ duration: 1200,  offset: -92 }"
-            class="cursor-pointer block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
+            class="cursor-pointer hover:text-primary-text block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
           >Ordinační hodiny</a>
           <a
             href="#equipment"
             v-smooth-scroll="{ duration: 1200,  offset: -66 }"
-            class="cursor-pointer block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
+            class="cursor-pointer hover:text-primary-text block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
           >Služby</a>
           <a
             href="#contact"
             v-smooth-scroll="{ duration: 1200,  offset: -66 }"
-            class="cursor-pointer block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
+            class="cursor-pointer hover:text-primary-text block mt-4 lg:inline-block lg:mt-0 lg:ml-6 lg:pl-4 font-semibold text-secondary-text"
           >Kontakt</a>
         </div>
       </nav>

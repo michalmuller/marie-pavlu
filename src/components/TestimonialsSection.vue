@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gradient">
-    <div class="container flex flex-wrap justify-between flex-row py-16">
-      <h1 class="w-full font-bold text-3xl text-white pb-12">Co o nas rikaji nasi pacienti</h1>
+    <div class="container flex flex-wrap justify-between flex-row py-16 px-4 sm:px-0">
+      <h1 class="w-full font-bold text-3xl text-white pb-10">Co o nas rikaji nasi pacienti</h1>
       <testimonial v-for="(person, index) in people" :key="index" :person="person"></testimonial>
     </div>
   </div>
@@ -19,7 +19,7 @@ export default {
           quote:
             " Vivamus suscipit eleifend turpis, nec sodales sem vulputate a. Curabitur pulvinar libero viverra,  finibus justo. Etiam eu vehicula felis.",
           img: require("../../public/img/appointment.png"),
-          cardMargin: "mr-6"
+          cardMargin: "mr-0 md:mr-6"
         },
         {
           name: "Roman Muller",
@@ -27,7 +27,7 @@ export default {
             "Lorem ipsum dolor sit amet, velit. Vivamus suscipit eleifend turpis, nec sodales sem vulputate a. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.",
 
           img: require("../../public/img/appointment.png"),
-          cardMargin: "mx-3"
+          cardMargin: "mx-0 md:mx-3"
         },
         {
           name: "Roman Muller",
@@ -35,7 +35,7 @@ export default {
             "Lorem ipsum dolor sit amet, velit. Donec varius vehicula magna sit amet auctor. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.",
 
           img: require("../../public/img/appointment.png"),
-          cardMargin: "ml-6"
+          cardMargin: "ml-0 md:ml-6"
         }
       ]
     };

@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="bg-light-blue">
-    <div class="container flex flex-wrap justify-between flex-row py-16">
+    <div class="container flex flex-wrap justify-between flex-row py-16 px-4 sm:px-0">
       <div class="w-full">
         <h1 class="font-bold text-3xl">Kontakt</h1>
         <p class="text-secondary-text pt-4">
@@ -8,7 +8,14 @@
           <br />proto se prosim nezapomente podivat na oteviraci hodiny.
         </p>
       </div>
-      <contact-information v-for="(city, index) in contact" :key="index" :city="city"></contact-information>
+      <div class="flex flex-wrap">
+        <contact-information
+          v-for="(city, index) in contact"
+          :key="index"
+          :city="city"
+          class="w-full md:w-1/2"
+        ></contact-information>
+      </div>
     </div>
   </div>
 </template>

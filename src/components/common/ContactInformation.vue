@@ -35,4 +35,10 @@ export default {
 .icon-janov {
   width: 114px;
 }
+
+@media screen and (max-width: 768px) {
+  .negative-margin {
+    margin-left: -24px;
+  }
+}
 </style>

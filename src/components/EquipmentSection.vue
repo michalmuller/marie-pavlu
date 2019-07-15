@@ -1,9 +1,9 @@
 <template>
   <div id="equipment" class="container flex flex-wrap justify-between flex-row py-16">
-    <div class="w-1/2 pr-10">
+    <div class="hidden sm:block w-1/2 pr-10">
       <img src="../../public/img/marie.png" alt />
     </div>
-    <div class="w-1/2 pl-10">
+    <div class="sm:w-1/2 w-full sm:pl-10 pl-4 pr-4 sm:pr-0">
       <h1 class="font-bold text-3xl pb-12">Vybaveni a Sluzby</h1>
 
       <equipment title="Ockovani" :iconPath="require('../../public/img/icons/syringe.svg')">
