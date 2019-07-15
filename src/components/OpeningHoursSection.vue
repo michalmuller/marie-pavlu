@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="w-full flex mt-8 mx-4 sm:mx-0">
-      <img class="w-12 mr-4" src="../../public/img/icons/syringe.svg" alt />
+      <img class="w-16 mr-4" src="../../public/img/icons/test-tube.svg" alt />
       <div>
         <p class="font-bold text-2xl">Odbery krve</p>
         <p

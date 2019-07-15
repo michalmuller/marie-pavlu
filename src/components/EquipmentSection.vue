@@ -1,27 +1,30 @@
 <template>
   <div id="equipment" class="container flex flex-wrap justify-between flex-row py-16">
-    <div class="hidden sm:block w-1/2 pr-10">
+    <div class="hidden sm:block w-2/5 pr-10">
       <img src="../../public/img/marie.png" alt />
     </div>
-    <div class="sm:w-1/2 w-full sm:pl-10 pl-4 pr-4 sm:pr-0">
+    <div class="sm:w-3/5 w-full sm:pl-10 pl-4 pr-4 sm:pr-0">
       <h1 class="font-bold text-3xl pb-12">Vybaveni a Sluzby</h1>
 
       <equipment title="Ockovani" :iconPath="require('../../public/img/icons/syringe.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            Nabizime ruzne druhy ockovani jako je
-            <b>PSH13,</b>
-            Tetanus, FSME, Chripka, dle domluvy dalsi.
+            <b>FSME -</b> proti klíšťové encephalitidě.
+            <br />
+            <b>Prevenar 13</b> očkování proti pneumokokovému zápalu plic.
+            <br />
+            <b>Tetanus, Hepatitida A, B,</b>
+            dle dohody i jiné očkování.
           </p>
         </template>
       </equipment>
 
-      <equipment title="Odbery krve" :iconPath="require('../../public/img/icons/test-tube.svg')">
+      <equipment title="Pojistovny" :iconPath="require('../../public/img/icons/contract.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            Nabizime ruzne druhy ockovani jako je
-            <b>PSH13,</b>
-            Tetanus, FSME, Chripka, dle domluvy dalsi.
+            máme smlouvu s
+            <b>VZP, MVČR - ministervstva vnitra.</b>
+            Ostatní pojištovny po domluve možné. Pracujeme na smlouvách i s ostatními pojišťovnami.
           </p>
         </template>
       </equipment>
@@ -29,19 +32,27 @@
       <equipment title="Pristroje a Zarizeni" :iconPath="require('../../public/img/icons/cpr.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            Nabizime ruzne druhy ockovani jako je
-            <b>PSH13,</b>
-            Tetanus, FSME, Chripka, dle domluvy dalsi.
+            <b>CRP -</b>
+            test na zjištění infekce,
+            <b>INR -</b> test na ředění krve
+            <br />
+            <b>Strept A -</b>přítomnost Steptokoka
+            <br />
+            <b>GHb -</b> zjištění dlouhodobé hladiny cukru v krvi při monitorování léčby cukrovky,
+            <b>Glykémie -</b> zjištění aktuální hladiny cukru v krvi.
+            <br />Zjištění Okultního krvácení ve stolici
+            <br />
+            <b>EKG</b> v ordinaci v Jablonci Nad Nisou.
           </p>
         </template>
       </equipment>
 
-      <equipment title="Dalsi Sluzby" :iconPath="require('../../public/img/icons/nurse.svg')">
+      <equipment title="Osobni pristup" :iconPath="require('../../public/img/icons/nurse.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            Nabizime ruzne druhy ockovani jako je
-            <b>PSH13,</b>
-            Tetanus, FSME, Chripka, dle domluvy dalsi.
+            preferujeme pozitivní osobní a rodinný přístup
+            kombinace klasické i alternativní mediciny.
+            Naším cílem je zdravý člověk.
           </p>
         </template>
       </equipment>
