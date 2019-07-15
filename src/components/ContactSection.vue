@@ -30,7 +30,7 @@ export default {
         {
           name: "Jablonec nad Nisou",
           iconPath: require("../../public/img/icons/jablonec.svg"),
-          padding: "pr-4",
+          padding: "pr-0 md:pr-4  pl-0",
           icon: "negative-margin",
           information: [
             {
@@ -53,7 +53,7 @@ export default {
         {
           name: "Janov nad Nisou",
           iconPath: require("../../public/img/icons/janov.svg"),
-          padding: "pl-4",
+          padding: "pl-0 md:pl-4",
           icon: "icon-janov",
           information: [
             {
