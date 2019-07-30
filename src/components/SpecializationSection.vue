@@ -8,29 +8,29 @@
         <div class="sm:w-1/2 w;full sm:pl-12 sm:pt-0 sm:pr-0 pt-8 pl-4 pr-4">
           <h1 class="text-3xl font-bold">O nas</h1>
           <p class="text-secondary-text pt-4">
-            MUDr. Marie Pavlů: studium na 3. lékařské fakultě UK Praha ukončila v r. 2003
+            <b>MUDr. Marie Pavlů:</b> studium na 3. lékařské fakultě UK Praha ukončila v r. 2003
             pracovala na interním oddělení nemocnice Tanvald
             pracovala v diabetologickém centru Krajské nemocnice Liberec
             od r. 2012 v ordinaci praktického lékaře Tanvald
             V. r. 2014 astestace v oboru praktického lékaře
           </p>
-          <p
-            class="text-secondary-text pt-4"
-          >Gabriela Koštejnová: vystudovala obor asistentka lékaře v Madridě</p>
+          <p class="text-secondary-text pt-4">
+            <b>Gabriela Koštejnová:</b> vystudovala obor asistentka lékaře v Madridě
+          </p>
         </div>
       </div>
       <div class="flex w-full flex-wrap mx-4 sm:mx-0 pt-20">
         <div class="w-full sm:w-1/2">
-          <h1 class="text-3xl font-bold">
-            Specializujeme se v tomhle
-            a proto jsme jednicka
-          </h1>
+          <h1 class="text-3xl font-bold">Specializace se na diabetiky</h1>
           <p
             class="text-secondary-text pt-4"
           >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
-          <p
-            class="text-secondary-text pt-4"
-          >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
+          <h1 class="text-3xl mt-8 font-bold">Alternativni forma mediciny</h1>
+          <p class="text-secondary-text pt-4">
+            preferujeme pozitivní osobní a rodinný přístup
+            kombinace klasické i alternativní mediciny.
+            Naším cílem je zdravý člověk.
+          </p>
           <div class="mt-12">
             <a
               class="bg-pink hover:bg-dark-pink py-2 px-10 rounded font-bold text-white"

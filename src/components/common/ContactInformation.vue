@@ -2,9 +2,13 @@
   <div class="flex w-1/2 pt-8" :class="city.padding">
     <img class="mr-4 md:mr-8 icon-city" :class="city.icon" :src="city.iconPath" alt />
     <div>
-      <div v-for="(info, index) in city.information" :key="index" class="flex items-center pb-4">
+      <div
+        v-for="(info, index) in city.information"
+        :key="index"
+        class="flex items-center pb-4 labels"
+      >
         <img class="icon-label mr-2 md:mr-3" :src="info.iconPath" alt />
-        <p>
+        <p @click="gMap(info.gMap)">
           <b>{{info.label}}:</b>
           {{info.text}}
         </p>
@@ -15,12 +19,24 @@
 
 <script>
 export default {
-  props: ["city"]
+  props: ["city"],
+  methods: {
+    gMap(g) {
+      if (typeof g !== "undefined") {
+        window.open(g);
+      }
+    }
+  }
 };
 </script>
 
 
 <style lang="scss" scoped>
+.labels {
+  &:last-child {
+    cursor: pointer;
+  }
+}
 .icon-city {
   width: 154px;
 }

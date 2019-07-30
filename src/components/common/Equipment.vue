@@ -1,8 +1,8 @@
 <template>
-  <div class="flex mb-12">
-    <img class="eq-icon mr-4 mt-2" :src="iconPath" alt />
+  <div class="flex items-start mb-12">
+    <img class="eq-icon mr-4" :src="iconPath" alt />
     <div>
-      <h3 class="font-bold text-xl">{{title}}</h3>
+      <h3 class="font-bold text-xl mb-1 cursor-default">{{title}}</h3>
       <p class="text-secondary-text">{{text}}</p>
       <slot name="text"></slot>
     </div>

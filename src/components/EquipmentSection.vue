@@ -4,27 +4,32 @@
       <img src="../../public/img/marie.png" alt />
     </div>
     <div class="sm:w-3/5 w-full sm:pl-10 pl-4 pr-4 sm:pr-0">
-      <h1 class="font-bold text-3xl pb-12">Vybaveni a Sluzby</h1>
+      <h1 class="font-bold text-3xl mb-8">Vybaveni a Sluzby</h1>
 
       <equipment title="Ockovani" :iconPath="require('../../public/img/icons/syringe.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            <b>FSME -</b> proti klíšťové encephalitidě.
+            <b>Tetanus</b> - ockovani proti infekcnimu onemocneni
             <br />
-            <b>Prevenar 13</b> očkování proti pneumokokovému zápalu plic.
+            <b>Hepatitida A, B</b> - ockovani proti zloutence
             <br />
-            <b>Tetanus, Hepatitida A, B,</b>
-            dle dohody i jiné očkování.
+            <b>FSME -</b> vakcina proti klíšťové encephalitidě
+            <br />
+            <b>Prevenar 13</b> - očkování proti pneumokokovému zápalu plic
           </p>
         </template>
       </equipment>
 
-      <equipment title="Pojistovny" :iconPath="require('../../public/img/icons/contract.svg')">
+      <equipment
+        v-on:click.native="pricesModalShowing= !pricesModalShowing"
+        title="Pojistovny"
+        :iconPath="require('../../public/img/icons/contract.svg')"
+      >
         <template v-slot:text>
           <p class="text-secondary-text">
-            máme smlouvu s
-            <b>VZP, MVČR - ministervstva vnitra.</b>
-            Ostatní pojištovny po domluve možné. Pracujeme na smlouvách i s ostatními pojišťovnami.
+            Smlouva s
+            <b>VZP, MVČR - ministervstva vnitra</b>
+            <br />Ostatní pojištovny jsou po domluve take možné
           </p>
         </template>
       </equipment>
@@ -34,36 +39,46 @@
           <p class="text-secondary-text">
             <b>CRP -</b>
             test na zjištění infekce,
+            <br />
             <b>INR -</b> test na ředění krve
             <br />
-            <b>Strept A -</b>přítomnost Steptokoka
+            <b>Strept A -</b> přítomnost Steptokoka
             <br />
-            <b>GHb -</b> zjištění dlouhodobé hladiny cukru v krvi při monitorování léčby cukrovky,
-            <b>Glykémie -</b> zjištění aktuální hladiny cukru v krvi.
+            <b>GHb -</b> zjištění dlouhodobé hladiny cukru v krvi
+            <br />
+            <b>Glykémie -</b> zjištění aktuální hladiny cukru v krvi
             <br />Zjištění Okultního krvácení ve stolici
             <br />
             <b>EKG</b> v ordinaci v Jablonci Nad Nisou.
           </p>
         </template>
       </equipment>
-
-      <equipment title="Osobni pristup" :iconPath="require('../../public/img/icons/nurse.svg')">
-        <template v-slot:text>
-          <p class="text-secondary-text">
-            preferujeme pozitivní osobní a rodinný přístup
-            kombinace klasické i alternativní mediciny.
-            Naším cílem je zdravý člověk.
-          </p>
-        </template>
-      </equipment>
     </div>
+    <modal :showing="pricesModalShowing" @close="pricesModalShowing = false">
+      <h2 class="text-2xl pb-2 font-bold">Cenik</h2>
+      <p class="mb-8">This is example text passed through to the modal via a slot.</p>
+      <p></p>
+      <button
+        class="text-white px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
+        @click="pricesModalShowing = false"
+      >Zavrit</button>
+    </modal>
   </div>
 </template>
 
 <script>
 import Equipment from "./common/Equipment";
+import Modal from "./common/Modal";
 export default {
-  components: { Equipment }
+  components: { Equipment, Modal },
+  data() {
+    return {
+      pricesModalShowing: false,
+      priceList: {
+        insurance: "Pojistovny"
+      }
+    };
+  }
 };
 </script>
 
@@ -71,5 +86,9 @@ export default {
 b {
   color: #242424;
   font-weight: 600;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #47c8e2, #6ebff8);
 }
 </style>

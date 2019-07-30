@@ -16,6 +16,7 @@ module.exports = {
     extend: {
       colors: {
         pink: '#F16783',
+        'semi-75': 'rgba(0, 0, 0, 0.75)',
         'dark-pink': '#E3506E',
         'light-blue': '#ECF6FB',
         'primary-text': '#242424',
