@@ -8,6 +8,16 @@
           class="mt-2 text-secondary-text"
         >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
         <opening-hours-card label="Jablonec nad Nisou" :time="jablonec"></opening-hours-card>
+        <div class="flex mt-8">
+          <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
+          <div>
+            <p class="font-bold text-xl">Odbery krve Jablonec</p>
+            <p class="mt-1 text-secondary-text">
+              utery, streda, čtvrtek 7-9 hod.
+              <br />Odběrova místnost 4.patro. poliklinika Jablonec.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div class="lg:w-1/2 w-full lg:ml-10">
@@ -16,15 +26,13 @@
           class="mt-2 text-secondary-text"
         >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
         <opening-hours-card label="Janov nad Nisou" :time="janov"></opening-hours-card>
-      </div>
-    </div>
-    <div class="w-full flex mt-8 mx-4 sm:mx-0">
-      <img class="w-16 mr-4" src="../../public/img/icons/test-tube.svg" alt />
-      <div>
-        <p class="font-bold text-2xl">Odbery krve</p>
-        <p
-          class="mt-1 text-secondary-text"
-        >Krev odebirame v ut, st, čt 7-9 hod v odběrové místnosti 4.patro poliklinika Jablonec nad Nisou</p>
+        <div class="flex mt-8">
+          <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
+          <div>
+            <p class="font-bold text-xl">Odbery krve Janov</p>
+            <p class="mt-1 text-secondary-text">čtvrtek 7-9 hod.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

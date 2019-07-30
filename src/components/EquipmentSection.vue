@@ -20,15 +20,12 @@
         </template>
       </equipment>
 
-      <equipment
-        v-on:click.native="pricesModalShowing= !pricesModalShowing"
-        title="Pojistovny"
-        :iconPath="require('../../public/img/icons/contract.svg')"
-      >
+      <equipment title="Pojistovny" :iconPath="require('../../public/img/icons/contract.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            Smlouva s
-            <b>VZP, MVČR - ministervstva vnitra</b>
+            <b>VZP</b> - vseobecna zdravotni pojistovna
+            <br />
+            <b>MVČR</b> - ministervstva vnitra
             <br />Ostatní pojištovny jsou po domluve take možné
           </p>
         </template>
@@ -53,10 +50,15 @@
           </p>
         </template>
       </equipment>
+      <button
+        @click="pricesModalShowing=true"
+        class="bg-pink hover:bg-dark-pink py-2 px-10 rounded font-bold text-white outline-none"
+      >Zobrazit Cenik</button>
     </div>
+
     <modal :showing="pricesModalShowing" @close="pricesModalShowing = false">
       <h2 class="text-2xl pb-2 font-bold">Cenik</h2>
-      <p class="mb-8">This is example text passed through to the modal via a slot.</p>
+      <p class="mb-8">cenik bude doplnen</p>
       <p></p>
       <button
         class="text-white px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
@@ -66,7 +68,10 @@
   </div>
 </template>
 
+
 <script>
+// click event on template itself:
+// v-on:click.native="pricesModalShowing= !pricesModalShowing"
 import Equipment from "./common/Equipment";
 import Modal from "./common/Modal";
 export default {
