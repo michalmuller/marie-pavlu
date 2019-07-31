@@ -8,10 +8,7 @@
         class="flex items-center pb-4 labels"
       >
         <img class="icon-label mr-2 md:mr-3" :src="info.iconPath" alt />
-        <p @click="gMap(info.gMap)">
-          <b>{{info.label}}:</b>
-          {{info.text}}
-        </p>
+        <p @click="gMap(info.gMap)">{{info.text}}</p>
       </div>
     </div>
   </div>

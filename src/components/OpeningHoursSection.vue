@@ -13,7 +13,7 @@
           <div>
             <p class="font-bold text-xl">Odbery krve Jablonec</p>
             <p class="mt-1 text-secondary-text">
-              utery, streda, čtvrtek 7-9 hod.
+              Úterý, středa, čtvrtek 7-9 hod.
               <br />Odběrova místnost 4.patro. poliklinika Jablonec.
             </p>
           </div>
@@ -30,7 +30,7 @@
           <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
           <div>
             <p class="font-bold text-xl">Odbery krve Janov</p>
-            <p class="mt-1 text-secondary-text">čtvrtek 7-9 hod.</p>
+            <p class="mt-1 text-secondary-text">Čtvrtek 7-9 hod.</p>
           </div>
         </div>
       </div>
@@ -46,45 +46,45 @@ export default {
     return {
       jablonec: [
         {
-          name: "Pondeli",
-          hours: "9-13 pro akutní 13-15 pro zvané"
+          name: "Pondělí",
+          hours: "9-13 pro akutní, 13-15 pro zvané"
         },
         {
-          name: "Utery",
+          name: "Úterý",
           hours: "Ordinace Janov n/Nisou"
         },
         {
-          name: "Streda",
-          hours: "9-13 pro akutní 13-15 pro zvané"
+          name: "Středa",
+          hours: "9-13 pro akutní, 13-15 pro zvané"
         },
         {
-          name: "Ctvrtek",
+          name: "Čtvrtek",
           hours: "Ordinace Janov n/Nisou"
         },
         {
-          name: "Patek",
-          hours: "9-13 pro akutní 13-15 pro zvané"
+          name: "Pátek",
+          hours: "9-13 pro akutní, 13-15 pro zvané"
         }
       ],
       janov: [
         {
-          name: "Pondeli",
+          name: "Pondělí",
           hours: "Ordinace Jablonec n/Nisou"
         },
         {
-          name: "Utery",
-          hours: "12-17 pro akutní 17-18 pro zvané"
+          name: "Úterý",
+          hours: "12-17 pro akutní, 17-18 pro zvané"
         },
         {
-          name: "Streda",
+          name: "Středa",
           hours: "Ordinace Jablonec n/Nisou"
         },
         {
-          name: "Ctvrtek",
-          hours: "8.30- 12   pro akutní   12-14 pro zvané"
+          name: "Čtvrtek",
+          hours: "8.30- 12 pro akutní, 12-14 pro zvané"
         },
         {
-          name: "Patek",
+          name: "Pátek",
           hours: "Ordinace Jablonec n/Nisou"
         }
       ]

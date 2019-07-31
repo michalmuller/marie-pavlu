@@ -8,7 +8,7 @@
           <br />proto se prosim nezapomente podivat na oteviraci hodiny.
         </p>
       </div>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap w-full">
         <contact-information
           v-for="(city, index) in contact"
           :key="index"
@@ -35,17 +35,17 @@ export default {
           information: [
             {
               iconPath: require("../../public/img/icons/mail.svg"),
-              label: "Email",
+              label: "",
               text: "marieAugustinova@seznam.cz"
             },
             {
               iconPath: require("../../public/img/icons/phone.svg"),
-              label: "Telefon",
+              label: "",
               text: "777 723 457"
             },
             {
               iconPath: require("../../public/img/icons/location.svg"),
-              label: "Adresa",
+              label: "",
               text: "Dlouha 11, Jablonec nad Nisou",
               gMap:
                 "https://www.google.com/maps/place/Po%C5%A1tovn%C3%AD+2428%2F8,+466+01+Jablonec+nad+Nisou,+Czechia/@50.7237417,15.163313,17z/data=!3m1!4b1!4m5!3m4!1s0x470ecad2748dda93:0xf10ed0a00582c2bc!8m2!3d50.7237383!4d15.1655017"
@@ -60,19 +60,20 @@ export default {
           information: [
             {
               iconPath: require("../../public/img/icons/mail.svg"),
-              label: "Email",
+              label: "",
               text: "marieAugustinova@seznam.cz"
             },
             {
               iconPath: require("../../public/img/icons/phone.svg"),
-              label: "Telefon",
+              label: "",
               text: "777 723 457"
             },
             {
               iconPath: require("../../public/img/icons/location.svg"),
-              label: "Adresa",
+              label: "",
               text: "Hranicna 26, Janov nad Nisou",
-              gMap: "https://www.google.com/maps/place/Janov+nad+Nisou+514,+468+11+Janov+nad+Nisou,+Czechia/@50.7729918,15.1655906,17z/data=!3m1!4b1!4m5!3m4!1s0x470934a6f0a7ecc7:0x206a5349c69adfd6!8m2!3d50.772988!4d15.167779"
+              gMap:
+                "https://www.google.com/maps/place/Janov+nad+Nisou+514,+468+11+Janov+nad+Nisou,+Czechia/@50.7729918,15.1655906,17z/data=!3m1!4b1!4m5!3m4!1s0x470934a6f0a7ecc7:0x206a5349c69adfd6!8m2!3d50.772988!4d15.167779"
             }
           ]
         }

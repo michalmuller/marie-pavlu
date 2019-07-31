@@ -1,8 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="31.282" height="18.774" viewBox="0 0 31.282 18.774">
-  <g id="mail" transform="translate(-299.997 -4193.078)">
-    <path id="Path_196" data-name="Path 196" d="M-8996.5,13346.236v-2.436a1.252,1.252,0,0,1,1.4-1.219h27.511a1.215,1.215,0,0,1,1.353,1.219v15.018s.272,1.533-1.578,1.533H-8995.1s-1.4.045-1.4-1.217v-9.969" transform="translate(9297 -9149)" fill="none" stroke="#202334" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-    <path id="Path_194" data-name="Path 194" d="M-8995.953,13343.274l14.565,10.008,14.565-10.008" transform="translate(9296.878 -9149.154)" fill="none" stroke="#202334" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-    <line id="Line_14" data-name="Line 14" y1="6.996" x2="9.329" transform="translate(301.277 4203.624)" fill="none" stroke="#202334" stroke-linecap="round" stroke-width="1"/>
-    <line id="Line_15" data-name="Line 15" x1="9.329" y1="6.996" transform="translate(320.711 4203.624)" fill="none" stroke="#202334" stroke-linecap="round" stroke-width="1"/>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="21px" viewBox="0 0 33 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="mail" transform="translate(1.000000, 1.000000)" stroke="#202334" stroke-width="1.5">
+            <path d="M0.503,4.158 L0.503,1.722 C0.509834101,1.36840908 0.665893142,1.03420173 0.93261282,0.801965093 C1.1993325,0.569728459 1.55183057,0.461127869 1.903,0.503 L29.414,0.503 C29.7600926,0.463417846 30.1065273,0.57428954 30.3653292,0.807459893 C30.6241311,1.04063025 30.770403,1.37366791 30.767,1.722 L30.767,16.74 C30.767,16.74 31.039,18.273 29.189,18.273 L1.903,18.273 C1.903,18.273 0.503,18.318 0.503,17.056 L0.503,7.87183634" id="Path_196" stroke-linejoin="round"></path>
+            <polyline id="Path_194" stroke-linejoin="round" points="0.928 1.042 15.493 11.05 30.058 1.042"></polyline>
+            <path d="M1.28,17.542 L10.0688219,11.05" id="Line_14"></path>
+            <path d="M30.043,17.542 L20.9338971,11.05" id="Line_15"></path>
+        </g>
+    </g>
 </svg>

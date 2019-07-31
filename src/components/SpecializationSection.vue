@@ -6,16 +6,19 @@
           <img class="rounded" src="../../public/img/waiting-room.jpg" alt />
         </div>
         <div class="sm:w-1/2 w;full sm:pl-12 sm:pt-0 sm:pr-0 pt-8 pl-4 pr-4">
-          <h1 class="text-3xl font-bold">O nas</h1>
+          <h1 class="text-3xl font-bold">O nás</h1>
           <p class="text-secondary-text pt-4">
-            <b>MUDr. Marie Pavlů:</b> studium na 3. lékařské fakultě UK Praha ukončila v r. 2003
-            pracovala na interním oddělení nemocnice Tanvald
-            pracovala v diabetologickém centru Krajské nemocnice Liberec
-            od r. 2012 v ordinaci praktického lékaře Tanvald
-            V. r. 2014 astestace v oboru praktického lékaře
+            <b>MUDr. Marie Pavlů</b> ukončila studium lékařské fakulty Univerzity Karlovy v Praze roku 2003.
           </p>
-          <p class="text-secondary-text pt-4">
-            <b>Gabriela Koštejnová:</b> vystudovala obor asistentka lékaře v Madridě
+          <p
+            class="text-secondary-text pt-2"
+          >Později pracovala na interním oddělení nemocnice Tanvald a v diabetologickém centru krajské nemocnice Liberec.</p>
+
+          <p
+            class="text-secondary-text pt-2"
+          >od roku 2012 v ordinaci praktického lékaře Tanvald a roku 2014 složila atestaci v oboru praktického lékaře.</p>
+          <p class="text-secondary-text pt-6">
+            <b>Gabriela Koštejnová</b> vystudovala obor asistentka lékaře v Madridě
           </p>
         </div>
       </div>

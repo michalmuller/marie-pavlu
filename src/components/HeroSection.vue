@@ -4,10 +4,10 @@
     <div id="home" class="hero-image">
       <div class="flex justify-end introduction-container">
         <div
-          class="lg:w-1/2 md:w-2/3 sm:w-2/3 w-4/5 mt-12 p-10 introduction rounded-lg rounded-r-none"
+          class="lg:w-1/2 md:w-2/3 sm:w-2/3 w-4/5 mt-12 px-10 py-8 introduction rounded-lg rounded-r-none"
         >
           <h1 class="text-3xl font-bold">MUDr. Marie Pavlů</h1>
-          <h2 class="text-xl font-semibold mb-3">Praktický lékař pro dospělé</h2>
+          <h2 class="text-xl font-semibold mb-4">Praktický lékař pro dospělé</h2>
           <div class="md:w-5/6 lg:w-3/5 text-secondary-text">
             <a
               class="block"
@@ -16,7 +16,7 @@
             >Jablonec nad Nisou, Poliklinika I, Postovni 2428.</a>
 
             <a
-              class="block"
+              class="block mt-1"
               target="_blank"
               href="https://www.google.com/maps/place/Janov+nad+Nisou+514,+468+11+Janov+nad+Nisou,+Czechia/@50.7729918,15.1655906,17z/data=!3m1!4b1!4m5!3m4!1s0x470934a6f0a7ecc7:0x206a5349c69adfd6!8m2!3d50.7729884!4d15.1677793"
             >Janov nad Nisou, 514.</a>
@@ -53,8 +53,8 @@
           colorFrom="#8E9AFD"
           colorTo="#A27BF1"
           :iconPath="require('../../public/img/icons/icu.svg')"
-          title="Sluzby"
-          text="Specializujeme se na péči o diabetiky 2.typu"
+          title="Služby"
+          text="Specializujeme se na péči o diabetiky 2. typu"
         ></card>
       </div>
     </div>
