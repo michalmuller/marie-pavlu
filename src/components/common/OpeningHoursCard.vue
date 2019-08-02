@@ -1,6 +1,6 @@
 <template>
   <div class="opening-hours-container rounded-lg mt-8">
-    <p class="opening-hour-label font-bold p-2">{{label}}</p>
+    <p class="opening-hour-label text-secondary-text font-semibold p-2">{{label}}</p>
     <div class="flex flex-wrap p-6">
       <div v-for="(day, index) in time" :key="index" class="flex w-full justify-between pt-1">
         <p class="text-secondary-text">{{day.name}}</p>

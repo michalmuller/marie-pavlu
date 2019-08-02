@@ -3,15 +3,13 @@
     <h1 class="w-full text-3xl font-bold mx-4 sm:mx-0">Ordinační hodiny</h1>
     <div class="flex flex-wrap lg:flex-no-wrap mx-4 sm:mx-0">
       <div class="lg:w-1/2 w-full lg:mr-10">
-        <h3 class="text-xl mt-8 font-semibold">Jablonec nad Nisou</h3>
-        <p
-          class="mt-2 text-secondary-text"
-        >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
+        <h3 class="text-xl mt-8 font-bold">Poliklinika I, Poštovní 2428, Jablonec nad Nisou</h3>
+        <!-- <p class="mt-2 text-secondary-text">Poliklinika I, Poštovní 2428, Jablonec nad Nisou</p> -->
         <opening-hours-card label="Jablonec nad Nisou" :time="jablonec"></opening-hours-card>
         <div class="flex mt-8 items-start">
           <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
           <div>
-            <p class="font-bold text-xl">Odbery krve Jablonec</p>
+            <p class="font-semibold text-xl">Odbery krve Jablonec n. N.</p>
             <p class="mt-1 text-secondary-text">
               Úterý, středa, čtvrtek 7-9 hod.
               <br />Odběrova místnost 4.patro. poliklinika Jablonec.
@@ -21,15 +19,13 @@
       </div>
 
       <div class="lg:w-1/2 w-full lg:ml-10">
-        <h3 class="text-xl mt-8 font-semibold">Janov nad Nisou</h3>
-        <p
-          class="mt-2 text-secondary-text"
-        >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
+        <h3 class="text-xl mt-8 font-bold">Janov Nad Nisou 514</h3>
+        <!-- <p class="mt-2 text-secondary-text">Janov Nad Nisou 514</p> -->
         <opening-hours-card label="Janov nad Nisou" :time="janov"></opening-hours-card>
         <div class="flex items-start mt-8">
           <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
           <div>
-            <p class="font-bold text-xl">Odbery krve Janov</p>
+            <p class="font-semibold text-xl">Odbery krve Janov n. N.</p>
             <p class="mt-1 text-secondary-text">Čtvrtek 7-9 hod.</p>
           </div>
         </div>

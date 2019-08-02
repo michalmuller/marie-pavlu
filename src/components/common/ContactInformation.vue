@@ -7,7 +7,11 @@
         :key="index"
         class="flex items-center pb-4 labels"
       >
-        <img class="icon-label mr-2 md:mr-3" :src="info.iconPath" alt />
+        <img
+          class="icon-label mr-2 md:mr-3"
+          :src="info.iconPath"
+          @click="openMail(info.label); gMap(info.gMap)"
+        />
         <p @click="gMap(info.gMap)">{{info.text}}</p>
       </div>
     </div>
@@ -22,6 +26,11 @@ export default {
       if (typeof g !== "undefined") {
         window.open(g);
       }
+    },
+    openMail(e) {
+      if (e == "mail") {
+        window.location = "mailto:marie.augustinova@seznam.cz";
+      }
     }
   }
 };
@@ -30,6 +39,11 @@ export default {
 
 <style lang="scss" scoped>
 .labels {
+  &:first-child {
+    img {
+      cursor: pointer;
+    }
+  }
   &:last-child {
     cursor: pointer;
   }
