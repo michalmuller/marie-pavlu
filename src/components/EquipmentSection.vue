@@ -4,16 +4,16 @@
       <img src="../../public/img/marie.png" alt />
     </div>
     <div class="sm:w-3/5 w-full sm:pl-10 pl-4 pr-4 sm:pr-0">
-      <h1 class="font-bold text-3xl mb-8">Vybaveni a Sluzby</h1>
+      <h1 class="font-bold text-3xl mb-8">Vybavení a Služby</h1>
 
-      <equipment title="Ockovani" :iconPath="require('../../public/img/icons/syringe.svg')">
+      <equipment title="Očkování" :iconPath="require('../../public/img/icons/syringe.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            <b>Tetanus</b> - ockovani proti infekcnimu onemocneni
+            <b>Tetanus</b> - očkování proti infekčnímu onemocnění
             <br />
-            <b>Hepatitida A, B</b> - ockovani proti zloutence
+            <b>Hepatitida A, B</b> - očkování proti žloutence
             <br />
-            <b>FSME -</b> vakcina proti klíšťové encephalitidě
+            <b>FSME -</b> vakcína proti klíšťové encephalitidě
             <br />
             <b>Prevenar 13</b> - očkování proti pneumokokovému zápalu plic
           </p>
@@ -23,10 +23,10 @@
       <equipment title="Pojistovny" :iconPath="require('../../public/img/icons/contract.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            <b>VZP</b> - vseobecna zdravotni pojistovna
+            <b>VZP</b> - všeobecná zdravotní pojišťovna
             <br />
-            <b>MVČR</b> - ministervstva vnitra
-            <br />Ostatní pojištovny jsou po domluve take možné
+            <b>MVČR</b> - pojišťovna ministervstva vnitra
+            <br />Ostatní pojišťovny jsou po domluvě také možné
           </p>
         </template>
       </equipment>
@@ -39,20 +39,21 @@
             <br />
             <b>INR -</b> test na ředění krve
             <br />
-            <b>Strept A -</b> přítomnost Steptokoka
+            <b>Strept A -</b> zjištění přítomnosti Steptokoka
             <br />
             <b>GHb -</b> zjištění dlouhodobé hladiny cukru v krvi
             <br />
             <b>Glykémie -</b> zjištění aktuální hladiny cukru v krvi
             <br />Zjištění Okultního krvácení ve stolici
             <br />
-            <b>EKG</b> v ordinaci v Jablonci Nad Nisou.
+            <b>EKG</b> v ordinaci v Jablonec Nad Nisou.
           </p>
         </template>
       </equipment>
       <button
         @click="pricesModalShowing=true"
         class="bg-pink hover:bg-dark-pink py-2 px-10 rounded font-bold text-white outline-none"
+        style="margin-left:70px"
       >Zobrazit Cenik</button>
     </div>
 

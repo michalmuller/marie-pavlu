@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gradient">
     <div class="container flex flex-wrap justify-between flex-row py-16 px-4 sm:px-0">
-      <h1 class="w-full font-bold text-3xl text-white pb-10">Co o nas rikaji nasi pacienti</h1>
+      <h1 class="w-full font-bold text-3xl text-white pb-10">Co o nás říkají naši pacienti</h1>
       <testimonial v-for="(person, index) in people" :key="index" :person="person"></testimonial>
     </div>
   </div>

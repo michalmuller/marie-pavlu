@@ -16,7 +16,7 @@
 
           <p
             class="text-secondary-text pt-2"
-          >od roku 2012 v ordinaci praktického lékaře Tanvald a roku 2014 složila atestaci v oboru praktického lékaře.</p>
+          >Od roku 2012 pracovala v ordinaci praktického lékaře Tanvald a roku 2014 složila atestaci v oboru praktického lékaře.</p>
           <p class="text-secondary-text pt-6">
             <b>Gabriela Koštejnová</b> vystudovala obor asistentka lékaře v Madridě
           </p>
@@ -44,8 +44,14 @@
         </div>
 
         <div class="image-section sm:pl-10 pl-0 sm:w-1/2 pt-12 sm:pt-0 w-full">
-          <img class="img-1 object-cover h-64 relative" src="../../public/img/appointment.png" alt />
-          <img class="img-2 object-cover relative sm:absolute" src="../../public/img/nurse.png" alt />
+          <img
+            class="img-1 object-cover h-64 relative sm:w-auto w-full"
+            src="../../public/img/appointment.png"
+          />
+          <img
+            class="img-2 object-cover relative sm:absolute sm:w-auto w-full"
+            src="../../public/img/nurse.png"
+          />
         </div>
       </div>
     </div>

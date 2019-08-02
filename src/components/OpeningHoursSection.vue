@@ -8,7 +8,7 @@
           class="mt-2 text-secondary-text"
         >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
         <opening-hours-card label="Jablonec nad Nisou" :time="jablonec"></opening-hours-card>
-        <div class="flex mt-8">
+        <div class="flex mt-8 items-start">
           <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
           <div>
             <p class="font-bold text-xl">Odbery krve Jablonec</p>
@@ -26,7 +26,7 @@
           class="mt-2 text-secondary-text"
         >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
         <opening-hours-card label="Janov nad Nisou" :time="janov"></opening-hours-card>
-        <div class="flex mt-8">
+        <div class="flex items-start mt-8">
           <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
           <div>
             <p class="font-bold text-xl">Odbery krve Janov</p>
