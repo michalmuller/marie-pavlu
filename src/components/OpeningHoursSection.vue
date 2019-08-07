@@ -1,6 +1,7 @@
 <template>
   <div id="opening-hours" class="container flex flex-wrap flex-row my-16">
     <h1 class="w-full text-3xl font-bold mx-4 sm:mx-0">Ordinační hodiny</h1>
+    <p class="text-lg mt-2 w-full">právě: {{openState}}</p>
     <div class="flex flex-wrap lg:flex-no-wrap mx-4 sm:mx-0">
       <div class="lg:w-1/2 w-full lg:mr-10">
         <h3 class="text-xl mt-8 font-bold">Poliklinika I, Poštovní 2428, Jablonec nad Nisou</h3>
@@ -12,7 +13,7 @@
             <p class="font-semibold text-xl">Odbery krve Jablonec n. N.</p>
             <p class="mt-1 text-secondary-text">
               Úterý, středa, čtvrtek 7-9 hod.
-              <br />Odběrova místnost 4.patro. poliklinika Jablonec.
+              <br />Odběrova místnost 4. patro poliklinika Jablonec.
             </p>
           </div>
         </div>
@@ -36,10 +37,43 @@
 
 <script>
 import OpeningHoursCard from "./common/OpeningHoursCard";
+import { setInterval } from "timers";
 export default {
   components: { OpeningHoursCard },
   data() {
+    //0 - Sunday
     return {
+      openState: "",
+      openingHours: {
+        0: {
+          open: "06:00",
+          close: "06:00"
+        },
+        1: {
+          open: "09:00",
+          close: "15:00"
+        },
+        2: {
+          open: "12:00",
+          close: "18:00"
+        },
+        3: {
+          open: "09:00",
+          close: "15:00"
+        },
+        4: {
+          open: "08:30",
+          close: "14:00"
+        },
+        5: {
+          open: "09:00",
+          close: "15:00"
+        },
+        6: {
+          open: "06:00",
+          close: "06:00"
+        }
+      },
       jablonec: [
         {
           name: "Pondělí",
@@ -85,6 +119,35 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    openAtTheMoment() {
+      if (
+        this.timeNow > this.openingHours[this.dayNow].open &&
+        this.timeNow < this.openingHours[this.dayNow].close
+      ) {
+        this.openState = "otevřeno";
+      } else {
+        this.openState = "zavřeno";
+      }
+    }
+  },
+  computed: {
+    timeNow() {
+      var today = new Date();
+      var hours = ("0" + today.getHours()).slice(-2);
+      var minutes = ("0" + today.getMinutes()).slice(-2);
+      var time = hours + ":" + minutes;
+      return time;
+    },
+    dayNow() {
+      var d = new Date();
+      var n = d.getDay();
+      return n;
+    }
+  },
+  created() {
+    this.openAtTheMoment();
   }
 };
 </script>

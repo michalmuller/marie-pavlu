@@ -24,7 +24,7 @@
       </div>
       <div class="flex w-full flex-wrap mx-4 sm:mx-0 pt-20">
         <div class="w-full sm:w-1/2">
-          <h1 class="text-3xl font-bold">Specializace se na diabetiky</h1>
+          <h1 class="text-3xl font-bold">Specializace na diabetiky</h1>
           <p
             class="text-secondary-text pt-4"
           >Consectetur adipiscing elit. Duis congue nisl elit, ac aliquam augue commodo vel. Quisque porttitor, felis id posuere efficitur.</p>
