@@ -1,7 +1,7 @@
 <template>
   <div id="opening-hours" class="container flex flex-wrap flex-row my-16">
     <h1 class="w-full text-3xl font-bold mx-4 sm:mx-0">Ordinační hodiny</h1>
-    <p class="text-lg mt-2 w-full">právě: {{openState}}</p>
+    <p v-if="openState != '' " class="text-lg mt-2 w-full">právě: {{openState}}</p>
     <div class="flex flex-wrap lg:flex-no-wrap mx-4 sm:mx-0">
       <div class="lg:w-1/2 w-full lg:mr-10">
         <h3 class="text-xl mt-8 font-bold">Poliklinika I, Poštovní 2428, Jablonec nad Nisou</h3>
@@ -43,6 +43,7 @@ export default {
   data() {
     //0 - Sunday
     return {
+      timeNow: "",
       openState: "",
       openingHours: {
         0: {
@@ -122,31 +123,36 @@ export default {
   },
   methods: {
     openAtTheMoment() {
-      if (
-        this.timeNow > this.openingHours[this.dayNow].open &&
-        this.timeNow < this.openingHours[this.dayNow].close
-      ) {
-        this.openState = "otevřeno";
-      } else {
-        this.openState = "zavřeno";
-      }
+      setInterval(() => {
+        if (
+          this.timeNow > this.openingHours[this.dayNow].open &&
+          this.timeNow < this.openingHours[this.dayNow].close
+        ) {
+          this.openState = "otevřeno";
+        } else {
+          this.openState = "zavřeno";
+        }
+      }, 1000);
+    },
+    now() {
+      setInterval(() => {
+        var today = new Date();
+        var hours = ("0" + today.getHours()).slice(-2);
+        var minutes = ("0" + today.getMinutes()).slice(-2);
+        var time = hours + ":" + minutes;
+        this.timeNow = time;
+      }, 1000);
     }
   },
   computed: {
-    timeNow() {
-      var today = new Date();
-      var hours = ("0" + today.getHours()).slice(-2);
-      var minutes = ("0" + today.getMinutes()).slice(-2);
-      var time = hours + ":" + minutes;
-      return time;
-    },
     dayNow() {
       var d = new Date();
       var n = d.getDay();
       return n;
     }
   },
-  created() {
+  mounted() {
+    this.now();
     this.openAtTheMoment();
   }
 };
