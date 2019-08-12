@@ -81,7 +81,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      names: ["mike", "john", "jill", "hank"]
+    };
+  }
+};
 </script>
 
 <style lang="scss" scoped>

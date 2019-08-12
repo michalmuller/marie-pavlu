@@ -44,6 +44,11 @@ export default {
               text: "483 341 225"
             },
             {
+              iconPath: require("../../public/img/icons/mobil.svg"),
+              label: "",
+              text: "601 538 013"
+            },
+            {
               iconPath: require("../../public/img/icons/location.svg"),
               label: "",
               text: "Poliklinika I, Poštovní 2428, Jablonec nad Nisou",
@@ -67,6 +72,11 @@ export default {
               iconPath: require("../../public/img/icons/phone.svg"),
               label: "",
               text: "483 380 012"
+            },
+            {
+              iconPath: require("../../public/img/icons/mobil.svg"),
+              label: "",
+              text: "601 538 013"
             },
             {
               iconPath: require("../../public/img/icons/location.svg"),

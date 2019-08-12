@@ -22,7 +22,7 @@
         </template>
       </equipment>
 
-      <equipment title="Pojistovny" :iconPath="require('../../public/img/icons/contract.svg')">
+      <equipment title="Pojišťovny" :iconPath="require('../../public/img/icons/contract.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
             <b>VZP -</b> všeobecná zdravotní pojišťovna
@@ -33,7 +33,7 @@
         </template>
       </equipment>
 
-      <equipment title="Pristroje a Zarizeni" :iconPath="require('../../public/img/icons/cpr.svg')">
+      <equipment title="Přístroje a Zařízení" :iconPath="require('../../public/img/icons/cpr.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
             <b>CRP -</b>
@@ -57,13 +57,27 @@
         @click="pricesModalShowing=true"
         class="bg-pink hover:bg-dark-pink py-2 px-10 rounded font-bold text-white outline-none"
         style="margin-left:70px"
-      >Zobrazit Cenik</button>
+      >Zobrazit Ceník</button>
     </div>
 
     <modal :showing="pricesModalShowing" @close="pricesModalShowing = false">
-      <h2 class="text-2xl pb-2 font-bold">Cenik</h2>
-      <p class="mb-8">cenik bude doplnen</p>
-      <p></p>
+      <h2 class="text-2xl pb-2 font-bold">Ceník</h2>
+      <div class="flex w-full justify-between">
+        <span>VSTUPNÍ PROHLÍDKA PRO ZAMĚSTNAVATELE</span>
+        <span>300,-</span>
+      </div>
+      <div class="flex w-full justify-between">
+        <span>PREVENTIVNÍ PROHLÍDKY PRO KURZY (SVÁŘEČ,VZV,ELEKTRIKÁŘ…atd)</span>
+        <span>200,-</span>
+      </div>
+      <div class="flex w-full justify-between">
+        <span>POSUDEK O ZDRAV.ZPŮSOB.PRO ÚŘAD PRÁCE</span>
+        <span>200,-</span>
+      </div>
+      <div class="flex w-full">
+        <div class="w-1/2">s</div>
+        <div class="w-1/2">sa</div>
+      </div>
       <button
         class="text-white px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
         @click="pricesModalShowing = false"

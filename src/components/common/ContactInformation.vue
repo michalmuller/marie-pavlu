@@ -52,7 +52,7 @@ export default {
   width: 154px;
 }
 .icon-label {
-  width: 24px;
+  width: 27px;
 }
 
 .negative-margin {
