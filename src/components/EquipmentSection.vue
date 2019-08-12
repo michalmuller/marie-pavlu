@@ -9,13 +9,15 @@
       <equipment title="Očkování" :iconPath="require('../../public/img/icons/syringe.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            <b>Tetanus</b> - očkování proti infekčnímu onemocnění
+            <b>Tetanus -</b> povinné očkování proti tetanu
             <br />
-            <b>Hepatitida A, B</b> - očkování proti žloutence
+            <b>Hepatitida A, B -</b> očkování proti žloutence typu A, B
             <br />
             <b>FSME -</b> vakcína proti klíšťové encephalitidě
             <br />
-            <b>Prevenar 13</b> - očkování proti pneumokokovému zápalu plic
+            <b>Prevenar 13 -</b> očkování proti pneumokokovému zápalu plic
+            <br />
+            <b>Boostrix -</b> nadstandartní očkování za poplatek proti tetanu, černému kašli a záškrtu
           </p>
         </template>
       </equipment>
@@ -23,9 +25,9 @@
       <equipment title="Pojistovny" :iconPath="require('../../public/img/icons/contract.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            <b>VZP</b> - všeobecná zdravotní pojišťovna
+            <b>VZP -</b> všeobecná zdravotní pojišťovna
             <br />
-            <b>MVČR</b> - pojišťovna ministervstva vnitra
+            <b>MVČR -</b> pojišťovna ministervstva vnitra
             <br />Ostatní pojišťovny jsou po domluvě také možné
           </p>
         </template>
@@ -35,18 +37,19 @@
         <template v-slot:text>
           <p class="text-secondary-text">
             <b>CRP -</b>
-            test na zjištění infekce,
+            test na přítomnost bakteriální infekce a vhodnosti nasazení antibiotik
             <br />
-            <b>INR -</b> test na ředění krve
+            <b>INR -</b> test při léčbě warfarinem
             <br />
-            <b>Strept A -</b> zjištění přítomnosti Steptokoka
+            <b>Strept A -</b> test na zjištění přítomnosti Streptokoka v krku
             <br />
             <b>GHb -</b> zjištění dlouhodobé hladiny cukru v krvi
             <br />
             <b>Glykémie -</b> zjištění aktuální hladiny cukru v krvi
-            <br />Zjištění Okultního krvácení ve stolici
             <br />
-            <b>EKG</b> v ordinaci v Jablonec Nad Nisou.
+            <b>test na OK -</b> přístrojový test na zjištění krve ve stolici prováděný v ordinaci
+            <br />
+            <b>EKG</b> v ordinaci v Jablonec Nad Nisou
           </p>
         </template>
       </equipment>

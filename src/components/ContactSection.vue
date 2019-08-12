@@ -36,7 +36,7 @@ export default {
             {
               iconPath: require("../../public/img/icons/mail.svg"),
               label: "mail",
-              text: "marie.augustinova@seznam.cz"
+              text: "ordinace.medikva.gmail.com"
             },
             {
               iconPath: require("../../public/img/icons/phone.svg"),
@@ -61,7 +61,7 @@ export default {
             {
               iconPath: require("../../public/img/icons/mail.svg"),
               label: "mail",
-              text: "marie.augustinova@seznam.cz"
+              text: "ordinace.medikva.gmail.com"
             },
             {
               iconPath: require("../../public/img/icons/phone.svg"),
