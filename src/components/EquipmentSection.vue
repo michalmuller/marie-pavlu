@@ -62,24 +62,22 @@
 
     <modal :showing="pricesModalShowing" @close="pricesModalShowing = false">
       <h2 class="text-2xl pb-2 font-bold">Ceník</h2>
-      <div class="flex w-full justify-between">
-        <span>VSTUPNÍ PROHLÍDKA PRO ZAMĚSTNAVATELE</span>
-        <span>300,-</span>
+      <div class="border rounded">
+        <div
+          v-for="(item, index) in priceList.column1"
+          :key="index"
+          class="flex w-full justify-between py-3 font-semibold price-list-item lowercase"
+        >
+          <span class="px-4">{{item.name}}</span>
+          <span class="px-4">{{item.price}}</span>
+        </div>
       </div>
-      <div class="flex w-full justify-between">
-        <span>PREVENTIVNÍ PROHLÍDKY PRO KURZY (SVÁŘEČ,VZV,ELEKTRIKÁŘ…atd)</span>
-        <span>200,-</span>
-      </div>
-      <div class="flex w-full justify-between">
-        <span>POSUDEK O ZDRAV.ZPŮSOB.PRO ÚŘAD PRÁCE</span>
-        <span>200,-</span>
-      </div>
-      <div class="flex w-full">
+      <!-- <div class="flex w-full">
         <div class="w-1/2">s</div>
         <div class="w-1/2">sa</div>
-      </div>
+      </div>-->
       <button
-        class="text-white px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
+        class="text-white mt-6 px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
         @click="pricesModalShowing = false"
       >Zavrit</button>
     </modal>
@@ -96,9 +94,31 @@ export default {
   components: { Equipment, Modal },
   data() {
     return {
-      pricesModalShowing: false,
+      pricesModalShowing: true,
       priceList: {
-        insurance: "Pojistovny"
+        column1: [
+          {
+            name: "VSTUPNÍ PROHLÍDKA PRO ZAMĚSTNAVATELE",
+            price: "300,-"
+          },
+          {
+            name:
+              "PREVENTIVNÍ PROHLÍDKY PRO KURZY (SVÁŘEČ, VZV, ELEKTRIKÁŘ, ATD.)",
+            price: "200,-"
+          },
+          {
+            name: "POSUDEK O ZDRAV.ZPŮSOB.PRO ÚŘAD PRÁCE",
+            price: "200,-"
+          },
+          {
+            name: "ŽÁDOSTI O UMÍSTĚNÍ DO USP, DŮM PRO SENIORY, DOMOV DŮCHODCŮ",
+            price: "300,-"
+          },
+          {
+            name: "SAMOŽÁDOSTI (LÁZNĚ,VÝPISY PRO PRÁVNICKÉ OSOBY, ATD.)",
+            price: "300,-"
+          }
+        ]
       }
     };
   }
@@ -113,5 +133,9 @@ b {
 
 .btn-gradient {
   background: linear-gradient(to right, #47c8e2, #6ebff8);
+}
+
+.price-list-item:nth-child(odd) {
+  background-color: #ecf6fb;
 }
 </style>
