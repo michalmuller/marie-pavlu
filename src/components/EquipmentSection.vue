@@ -74,22 +74,40 @@
         </div>
       </div>
 
-      <div class="flex w-full mt-8">
-        <div class="w-1/2 mr-4">
+      <div class="flex flex-wrap mt-8">
+        <div class="w-1/2">
           <h3 class="text-xl font-semibold pb-2">Řidičský průkaz</h3>
-          <div class="border rounded">
-            <div
-              v-for="(item, index) in priceList.column2"
-              :key="index"
-              class="flex w-full lowercase py-3 justify-between price-list-item"
-            >
-              <span class="px-4">{{item.name}}</span>
-              <span class="px-4">{{item.price}}</span>
+          <div>
+            <div class="border rounded mr-4">
+              <div
+                v-for="(item, index) in priceList.column2"
+                :key="index"
+                class="flex w-full lowercase py-3 justify-between price-list-item"
+              >
+                <span class="px-4">{{item.name}}</span>
+                <span class="px-4">{{item.price}}</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="w-1/2 ml-4">
+        <div class="w-1/2">
+          <h3 class="text-xl font-semibold pb-2 ml-4">Zbrojní průkaz</h3>
+          <div>
+            <div class="border rounded ml-4">
+              <div
+                v-for="(item, index) in priceList.column3"
+                :key="index"
+                class="flex w-full lowercase py-3 justify-between price-list-item"
+              >
+                <span class="px-4">{{item.name}}</span>
+                <span class="px-4">{{item.price}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/2">
           <h3 class="text-xl font-semibold pb-2">Zbrojní průkaz</h3>
           <div class="border rounded">
             <div
@@ -170,6 +188,16 @@ export default {
           }
         ],
         column3: [
+          {
+            name: "NOVÝ",
+            price: "500,-"
+          },
+          {
+            name: "KONTROLNÍ",
+            price: "300,-"
+          }
+        ],
+        column4: [
           {
             name: "NOVÝ",
             price: "500,-"
