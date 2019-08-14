@@ -62,6 +62,7 @@
 
     <modal :showing="pricesModalShowing" @close="pricesModalShowing = false">
       <h2 class="text-2xl pb-2 font-bold">Ceník</h2>
+
       <div class="border rounded">
         <div
           v-for="(item, index) in priceList.column1"
@@ -72,10 +73,37 @@
           <span class="px-4">{{item.price}}</span>
         </div>
       </div>
-      <!-- <div class="flex w-full">
-        <div class="w-1/2">s</div>
-        <div class="w-1/2">sa</div>
-      </div>-->
+
+      <div class="flex w-full mt-8">
+        <div class="w-1/2 mr-4">
+          <h3 class="text-xl font-semibold pb-2">Řidičský průkaz</h3>
+          <div class="border rounded">
+            <div
+              v-for="(item, index) in priceList.column2"
+              :key="index"
+              class="flex w-full lowercase py-3 justify-between price-list-item"
+            >
+              <span class="px-4">{{item.name}}</span>
+              <span class="px-4">{{item.price}}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/2 ml-4">
+          <h3 class="text-xl font-semibold pb-2">Zbrojní průkaz</h3>
+          <div class="border rounded">
+            <div
+              v-for="(item, index) in priceList.column3"
+              :key="index"
+              class="flex w-full lowercase py-3 justify-between price-list-item"
+            >
+              <span class="px-4">{{item.name}}</span>
+              <span class="px-4">{{item.price}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <button
         class="text-white mt-6 px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
         @click="pricesModalShowing = false"
@@ -115,7 +143,39 @@ export default {
             price: "300,-"
           },
           {
-            name: "SAMOŽÁDOSTI (LÁZNĚ,VÝPISY PRO PRÁVNICKÉ OSOBY, ATD.)",
+            name: "SAMOŽÁDOSTI (LÁZNĚ, VÝPISY PRO PRÁVNICKÉ OSOBY, ATD.)",
+            price: "300,-"
+          },
+          {
+            name: "SAMOŽÁDOSTI PRO MÚ, KÚ, SOUDY, POLICII, ATD.",
+            price: "300,-"
+          },
+          {
+            name: "BOLESTNÉ-BODOVÉ HODNOCENÍ",
+            price: "300,-"
+          }
+        ],
+        column2: [
+          {
+            name: "NOVÝ",
+            price: "300,-"
+          },
+          {
+            name: "ROZŠÍŘENÍ, OBNOVENÍ",
+            price: "200,-"
+          },
+          {
+            name: "NAD 60 LET",
+            price: "300,-"
+          }
+        ],
+        column3: [
+          {
+            name: "NOVÝ",
+            price: "500,-"
+          },
+          {
+            name: "KONTROLNÍ",
             price: "300,-"
           }
         ]
