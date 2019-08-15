@@ -356,6 +356,9 @@ b {
   }
 
   .price-list-half:nth-child(even) {
+    h3 {
+      margin-left: 0;
+    }
     .cm {
       margin-left: 0;
     }
