@@ -5,12 +5,15 @@
       class="fixed inset-0 w-full h-screen flex items-center justify-center bg-semi-75"
       @click.self="close"
     >
-      <div class="relative w-full max-w-4xl bg-white shadow-lg rounded-lg p-8">
-        <button
-          aria-label="close"
-          class="absolute top-0 right-0 text-xl text-gray-500 my-2 mx-4 outline-none"
-          @click.prevent="close"
-        >×</button>
+      <div class="relative w-full max-w-4xl bg-white shadow-lg rounded-lg mt-16">
+        <div class="flex justify-between items-center rounded-t-lg bg-gray-200 px-8 py-3">
+          <h2 class="text-2xl font-bold">Ceník</h2>
+          <button
+            aria-label="close"
+            class="text-3xl text-gray-500 outline-none"
+            @click.prevent="close"
+          >×</button>
+        </div>
         <slot />
       </div>
     </div>

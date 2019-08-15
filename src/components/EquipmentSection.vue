@@ -61,71 +61,46 @@
     </div>
 
     <modal :showing="pricesModalShowing" @close="pricesModalShowing = false">
-      <h2 class="text-2xl pb-2 font-bold">Ceník</h2>
-
-      <div class="border rounded">
-        <div
-          v-for="(item, index) in priceList.column1"
-          :key="index"
-          class="flex w-full justify-between py-3 font-semibold price-list-item lowercase"
-        >
-          <span class="px-4">{{item.name}}</span>
-          <span class="px-4">{{item.price}}</span>
+      <div class="py-8 pl-8 pr-4 modal-container">
+        <h3 class="text-xl font-semibold pb-2">Všeobecné</h3>
+        <div class="border rounded">
+          <div
+            v-for="(item, index) in priceList.column1"
+            :key="index"
+            class="flex w-full justify-between py-3 font-semibold price-list-item lowercase"
+          >
+            <span class="px-4">{{item.name}}</span>
+            <span class="px-4">{{item.price}}</span>
+          </div>
         </div>
-      </div>
 
-      <div class="flex flex-wrap mt-8">
-        <div class="w-1/2">
-          <h3 class="text-xl font-semibold pb-2">Řidičský průkaz</h3>
-          <div>
-            <div class="border rounded mr-4">
-              <div
-                v-for="(item, index) in priceList.column2"
-                :key="index"
-                class="flex w-full lowercase py-3 justify-between price-list-item"
-              >
-                <span class="px-4">{{item.name}}</span>
-                <span class="px-4">{{item.price}}</span>
+        <div class="flex flex-wrap">
+          <div
+            v-for="(lists, index) in priceList.column2"
+            :key="index"
+            class="w-full md:w-1/2 price-list-half mt-6"
+          >
+            <h3 class="text-xl font-semibold pb-2">{{lists.name}}</h3>
+            <div class="cm">
+              <div class="border rounded">
+                <div
+                  v-for="(i, index) in lists.list"
+                  :key="index"
+                  class="flex w-full lowercase py-3 justify-between price-list-item"
+                >
+                  <span class="px-4">{{i.name}}</span>
+                  <span class="px-4">{{i.price}}</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="w-1/2">
-          <h3 class="text-xl font-semibold pb-2 ml-4">Zbrojní průkaz</h3>
-          <div>
-            <div class="border rounded ml-4">
-              <div
-                v-for="(item, index) in priceList.column3"
-                :key="index"
-                class="flex w-full lowercase py-3 justify-between price-list-item"
-              >
-                <span class="px-4">{{item.name}}</span>
-                <span class="px-4">{{item.price}}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-1/2">
-          <h3 class="text-xl font-semibold pb-2">Zbrojní průkaz</h3>
-          <div class="border rounded">
-            <div
-              v-for="(item, index) in priceList.column3"
-              :key="index"
-              class="flex w-full lowercase py-3 justify-between price-list-item"
-            >
-              <span class="px-4">{{item.name}}</span>
-              <span class="px-4">{{item.price}}</span>
-            </div>
-          </div>
-        </div>
+        <button
+          class="text-white mt-6 px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
+          @click="pricesModalShowing = false"
+        >Zavrit</button>
       </div>
-
-      <button
-        class="text-white mt-6 px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
-        @click="pricesModalShowing = false"
-      >Zavrit</button>
     </modal>
   </div>
 </template>
@@ -140,7 +115,7 @@ export default {
   components: { Equipment, Modal },
   data() {
     return {
-      pricesModalShowing: true,
+      pricesModalShowing: false,
       priceList: {
         column1: [
           {
@@ -171,40 +146,132 @@ export default {
           {
             name: "BOLESTNÉ-BODOVÉ HODNOCENÍ",
             price: "300,-"
+          },
+          {
+            name: "INFÚZE VITAMÍNU C",
+            price: "700,-"
           }
         ],
         column2: [
           {
-            name: "NOVÝ",
-            price: "300,-"
+            name: "Zbrojní průkaz",
+            list: [
+              {
+                name: "NOVÝ",
+                price: "500,-"
+              },
+              {
+                name: "KONTROLNÍ",
+                price: "300,-"
+              }
+            ]
           },
           {
-            name: "ROZŠÍŘENÍ, OBNOVENÍ",
-            price: "200,-"
+            name: "Pojistky",
+            list: [
+              {
+                name: "ÚRAZOVÉ",
+                price: "300,-"
+              },
+              {
+                name: "ŽIVOTNÍ AJ. DLE NÁROČNOSTI",
+                price: "300-600,-"
+              }
+            ]
           },
           {
-            name: "NAD 60 LET",
-            price: "300,-"
-          }
-        ],
-        column3: [
-          {
-            name: "NOVÝ",
-            price: "500,-"
+            name: "Zdravotní průkaz",
+            list: [
+              {
+                name: "NA DOBU NEURČITOU",
+                price: "200,-"
+              },
+              {
+                name: "NA DOBU URČITOU",
+                price: "100,-"
+              }
+            ]
           },
           {
-            name: "KONTROLNÍ",
-            price: "300,-"
-          }
-        ],
-        column4: [
-          {
-            name: "NOVÝ",
-            price: "500,-"
+            name: "Cesty do zahraničí",
+            list: [
+              {
+                name: "KRÁTKODOBÉ-TURISTICKÉ",
+                price: "300,-"
+              },
+              {
+                name: "DLOUHODOBÉ",
+                price: "900,-"
+              }
+            ]
           },
           {
-            name: "KONTROLNÍ",
-            price: "300,-"
+            name: "HIV-AIDS",
+            list: [
+              {
+                name: "NEANONYMNĚ",
+                price: "ZDARMA"
+              },
+              {
+                name: "ANONYMNĚ-CERTIFIKÁT",
+                price: "500,-"
+              }
+            ]
+          },
+          {
+            name: "Sportovní účely",
+            list: [
+              {
+                name: "POVOLENÍ, ZPŮSOBILOST",
+                price: "300,-"
+              },
+              {
+                name: "SOUTĚŽ, ZÁVODY",
+                price: "100,-"
+              }
+            ]
+          },
+          {
+            name: "Řidičský průkaz",
+            list: [
+              {
+                name: "NOVÝ",
+                price: "300,-"
+              },
+              {
+                name: "ROZŠÍŘENÍ, OBNOVENÍ",
+                price: "200,-"
+              },
+              {
+                name: "NAD 60 LET",
+                price: "300,-"
+              }
+            ]
+          },
+          {
+            name: "Očkování: dle cen očkovací látky",
+            list: [
+              {
+                name: "APLIKACE",
+                price: "100,-"
+              },
+              {
+                name: "FSME (KLÍŠTĚ)",
+                price: "800,-"
+              },
+              {
+                name: "HEPATITIS (ŽLOUTENKA) A+B",
+                price: "1800,-"
+              },
+              {
+                name: "PRENEVAR 13",
+                price: "1500,-"
+              },
+              {
+                name: "PREVENAR 13 NAD 65 LET ",
+                price: "ZDARMA"
+              }
+            ]
           }
         ]
       }
@@ -225,5 +292,73 @@ b {
 
 .price-list-item:nth-child(odd) {
   background-color: #ecf6fb;
+}
+
+.price-list-half:nth-child(odd) {
+  .cm {
+    margin-right: 0;
+  }
+}
+
+.price-list-half:nth-child(even) {
+  h3 {
+    margin-left: 1rem;
+  }
+  .cm {
+    margin-left: 1rem;
+  }
+}
+
+.modal-container {
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.scrollbar {
+  margin-left: 30px;
+  float: left;
+  height: 300px;
+  width: 65px;
+  background: #f5f5f5;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
+
+.modal-container::-webkit-scrollbar {
+  width: 18px;
+}
+
+.modal-container::-webkit-scrollbar-thumb {
+  height: 44px;
+  border: 6px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  -webkit-border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.modal-container::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.modal-container::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+  .price-list-half:nth-child(odd) {
+    .cm {
+      margin-right: 0;
+    }
+  }
+
+  .price-list-half:nth-child(even) {
+    .cm {
+      margin-left: 0;
+    }
+  }
 }
 </style>

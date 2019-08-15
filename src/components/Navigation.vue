@@ -5,7 +5,10 @@
         <router-link to="#home" v-smooth-scroll="{ duration: 1200,  offset: -92 }">
           <div class="flex items-center flex-shrink-0 mr-6">
             <img class="mr-3 w-5" src="../../public/img/icons/surgeon.svg" alt />
-            <span class="font-bold text-xl">MUDr. Marie Pavlů - Medikva s.r.o.</span>
+            <span class="font-bold text-xl">
+              MUDr. Marie Pavlů
+              <span class="hidden md:inline">- Medikva s.r.o.</span>
+            </span>
           </div>
         </router-link>
         <div class="block lg:hidden" @click="toggle = !toggle">
