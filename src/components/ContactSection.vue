@@ -13,7 +13,7 @@
           v-for="(city, index) in contact"
           :key="index"
           :city="city"
-          class="w-full md:w-1/2"
+          class="w-full"
         ></contact-information>
       </div>
     </div>
@@ -30,8 +30,7 @@ export default {
         {
           name: "Jablonec nad Nisou",
           iconPath: require("../../public/img/icons/jablonec.svg"),
-          padding: "pr-0 md:pr-4  pl-0",
-          icon: "negative-margin",
+          photo: require("../../public/img/jablonec-photo.jpg"),
           information: [
             {
               iconPath: require("../../public/img/icons/mail.svg"),
@@ -60,8 +59,7 @@ export default {
         {
           name: "Janov nad Nisou",
           iconPath: require("../../public/img/icons/janov.svg"),
-          padding: "pl-0 md:pl-4",
-          icon: "icon-janov",
+          photo: require("../../public/img/janov-photo.jpg"),
           information: [
             {
               iconPath: require("../../public/img/icons/mail.svg"),

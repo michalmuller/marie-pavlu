@@ -67,7 +67,7 @@
                 src="../../public/img/c-infusion.jpg"
               />
             </div>
-            <div class="ml-2 w-3/5">
+            <div class="flex ml-2 w-3/5 justify-end">
               <img
                 class="img-2 object-cover relative h-48 shadow"
                 src="../../public/img/alternative.jpg"
