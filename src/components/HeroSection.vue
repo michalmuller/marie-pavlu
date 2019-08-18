@@ -37,7 +37,7 @@
           colorTo="#6ebff8"
           :iconPath="require('../../public/img/icons/handshake.svg')"
           title="Osobní přístup"
-          text="Každý člověk je pro mě jedinečný a věnuji mu individuální pozornost"
+          text="Každý člověk je pro nás jedinečný a věnujeme mu individuální pozornost"
         ></card>
         <card
           class="lg:w-1/3 w-full sm:mr-6 sm:ml-6 ml-4 mr-4"
@@ -45,7 +45,7 @@
           colorTo="#8E9AFD"
           :iconPath="require('../../public/img/icons/medical-book.svg')"
           title="Profesionalita"
-          text="Více než 15 let praxe"
+          text="Profesionalita a zaručená kvalita poskytovaných služeb s více než 15 let praxe"
         ></card>
 
         <card
@@ -53,7 +53,7 @@
           colorFrom="#8E9AFD"
           colorTo="#A27BF1"
           :iconPath="require('../../public/img/icons/icu.svg')"
-          title="Služby"
+          title="Péče o diabetiky"
           text="Specializujeme se na péči o diabetiky 2. typu"
         ></card>
       </div>

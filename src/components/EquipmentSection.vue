@@ -36,9 +36,6 @@
       <equipment title="Přístroje a Zařízení" :iconPath="require('../../public/img/icons/cpr.svg')">
         <template v-slot:text>
           <p class="text-secondary-text">
-            <b>CRP -</b>
-            test na přítomnost bakteriální infekce a vhodnosti nasazení antibiotik
-            <br />
             <b>INR -</b> test při léčbě warfarinem
             <br />
             <b>Strept A -</b> test na zjištění přítomnosti Streptokoka v krku
@@ -47,9 +44,12 @@
             <br />
             <b>Glykémie -</b> zjištění aktuální hladiny cukru v krvi
             <br />
-            <b>test na OK -</b> přístrojový test na zjištění krve ve stolici prováděný v ordinaci
+            <b>test na OK -</b> přístrojový test na zjištění krve ve stolici
             <br />
             <b>EKG</b> v ordinaci v Jablonec Nad Nisou
+            <br />
+            <b>CRP -</b>
+            test na přítomnost bakteriální infekce a vhodnosti nasazení antibiotik
           </p>
         </template>
       </equipment>
@@ -67,7 +67,7 @@
           <div
             v-for="(item, index) in priceList.column1"
             :key="index"
-            class="flex w-full justify-between py-3 font-semibold price-list-item lowercase"
+            class="flex w-full justify-between py-3 price-list-item lowercase"
           >
             <span class="px-4">{{item.name}}</span>
             <span class="px-4">{{item.price}}</span>
@@ -99,7 +99,7 @@
         <button
           class="text-white mt-6 px-4 py-2 text-sm uppercase tracking-wide font-bold rounded btn-gradient"
           @click="pricesModalShowing = false"
-        >Zavrit</button>
+        >Zavřít</button>
       </div>
     </modal>
   </div>

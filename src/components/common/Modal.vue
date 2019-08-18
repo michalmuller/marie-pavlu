@@ -10,7 +10,7 @@
           <h2 class="text-2xl font-bold">Ceník</h2>
           <button
             aria-label="close"
-            class="text-3xl text-gray-500 outline-none"
+            class="text-3xl text-gray-500 outline-none p-2"
             @click.prevent="close"
           >×</button>
         </div>

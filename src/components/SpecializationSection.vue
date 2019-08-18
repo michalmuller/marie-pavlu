@@ -15,14 +15,14 @@
             class="text-secondary-text pt-4"
           >Od roku 2012 pracovala v ordinaci praktického lékaře Tanvald a roku 2014 složila atestaci v oboru praktického lékaře.</p>
           <p class="text-secondary-text pt-4">
-            v březnu 2019 převzala
+            V březnu 2019 převzala
             <b>
               pacienty od
               MUDr. Milana Kvasničky.
             </b>
           </p>
           <p class="text-secondary-text pt-8">
-            <b>as. Gabriela Koštejnová</b> vystudovala obor asistentka lékaře a sekretariát medicíny v r. 2007 na universitě v Madridě.
+            <b>As. Gabriela Koštejnová</b> vystudovala obor asistentka lékaře a sekretariát medicíny v r. 2007 na universitě v Madridě.
           </p>
         </div>
       </div>
@@ -57,19 +57,19 @@
 
         <div class="image-section sm:pl-10 pl-0 sm:w-1/2 pt-12 sm:pt-0 w-full">
           <img
-            class="img-1 object-cover h-56 relative w-full shadow"
+            class="img-1 object-cover h-48 relative w-full shadow"
             src="../../public/img/diabetes.jpg"
           />
           <div class="relative w-full flex mt-4">
             <div class="mr-2 w-2/5">
               <img
-                class="img-2 object-cover relative h-48 shadow"
+                class="img-2 object-cover relative h-40 shadow"
                 src="../../public/img/c-infusion.jpg"
               />
             </div>
             <div class="flex ml-2 w-3/5 justify-end">
               <img
-                class="img-2 object-cover relative h-48 shadow"
+                class="img-2 object-cover relative h-40 shadow"
                 src="../../public/img/alternative.jpg"
               />
             </div>
