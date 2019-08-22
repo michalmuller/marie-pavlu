@@ -81,7 +81,7 @@ a:hover {
 
   .introduction-container {
     .introduction {
-      background-color: rgba($color: #fff, $alpha: 0.83);
+      background-color: rgba($color: #fff, $alpha: 0.9);
     }
   }
 }

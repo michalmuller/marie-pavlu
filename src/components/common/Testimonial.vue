@@ -1,6 +1,6 @@
 <template>
   <div class="md:w-1/3 w-full py-4 md:py-0">
-    <div class="rounded-lg bg-white shadow-md px-10 py-10" :class="person.cardMargin">
+    <div class="rounded-lg bg-white shadow-md px-8 py-10" :class="person.cardMargin">
       <div class="w-full flex justify-center">
         <img class="w-20 h-20 rounded-full" :src="person.img" alt="Sunset in the mountains" />
       </div>

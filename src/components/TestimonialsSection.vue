@@ -17,30 +17,31 @@ export default {
         {
           name: "Roman Muller",
           quote:
-            " Vivamus suscipit eleifend turpis, nec sodales sem vulputate a. Curabitur pulvinar libero viverra,  finibus justo. Etiam eu vehicula felis.",
-          img: require("../../public/img/appointment.png"),
+            "K doktorce Pavlů chodím už třetím rokem, v ordinaci mají velmi vlídný přístup. Nedávno jsem byl na infuze vitamínu C a mohu vřele doporučit.",
+          img: require("../../public/img/avatar-man.png"),
           cardMargin: "mr-0 md:mr-6"
-        },
-        {
-          name: "Roman Muller",
-          quote:
-            "Lorem ipsum dolor sit amet, velit. Vivamus suscipit eleifend turpis, nec sodales sem vulputate a. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.",
-
-          img: require("../../public/img/appointment.png"),
-          cardMargin: "mx-0 md:mx-3"
-        },
-        {
-          name: "Roman Muller",
-          quote:
-            "Lorem ipsum dolor sit amet, velit. Donec varius vehicula magna sit amet auctor. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.",
-
-          img: require("../../public/img/appointment.png"),
-          cardMargin: "ml-0 md:ml-6"
         }
       ]
     };
   }
 };
+
+//         {
+//           name: "Roman Muller",
+//           quote:
+//             "Lorem ipsum dolor sit amet, velit. Vivamus suscipit eleifend turpis, nec sodales sem vulputate a. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.",
+
+//           img: require("../../public/img/doctor-assistant.svg"),
+//           cardMargin: "mx-0 md:mx-3"
+//         },
+//         {
+//           name: "Roman Muller",
+//           quote:
+//             "Lorem ipsum dolor sit amet, velit. Donec varius vehicula magna sit amet auctor. Curabitur pulvinar libero viverra, efficitur odio eu, finibus justo. Etiam eu vehicula felis.",
+
+//           img: require("../../public/img/doctor-assistant.svg"),
+//           cardMargin: "ml-0 md:ml-6"
+//         }
 </script>
 
 <style lang="scss" scoped>

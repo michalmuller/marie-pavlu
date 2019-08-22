@@ -1,7 +1,7 @@
 <template>
   <div id="equipment" class="container flex flex-wrap justify-between flex-row py-16">
     <div class="hidden sm:block w-2/5 pr-10">
-      <img src="../../public/img/marie.png" alt />
+      <img class="mt-24" src="../../public/img/equipment.svg" alt />
     </div>
     <div class="sm:w-3/5 w-full sm:pl-10 pl-4 pr-4 sm:pr-0">
       <h1 class="font-bold text-3xl mb-8">Vybavení a Služby</h1>
