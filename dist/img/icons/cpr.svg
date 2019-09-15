@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.047" height="81.725" viewBox="0 0 84.047 81.725">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.063" height="70.915" viewBox="0 0 83.063 70.915">
   <defs>
     <linearGradient id="linear-gradient" x1="0.731" x2="0.374" y2="1.39" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#5ba1dd"/>
       <stop offset="1" stop-color="#8164e4"/>
     </linearGradient>
   </defs>
-  <g id="cpr" transform="translate(-1064.117 -3370.074)">
-    <path id="Path_50" data-name="Path 50" d="M27.5,14.811c22.746,13.133,43.857-2.5,43.857,12.689S42.688,55,27.5,55A27.5,27.5,0,0,1,0,27.5C0,12.312,4.754,1.678,27.5,14.811Z" transform="translate(1074.705 3435.719) rotate(-73)" fill="#fce0e6"/>
+  <g id="cpr" transform="translate(-1046.438 -3363.009)">
+    <path id="Path_50" data-name="Path 50" d="M23.791,43.643C43.469,32.282,61.733,45.8,61.733,32.665S36.93,8.874,23.791,8.874A23.791,23.791,0,0,0,0,32.665C0,45.8,4.113,55,23.791,43.643Z" transform="translate(1037.951 3419.45) rotate(-73)" fill="#fce0e6"/>
     <g id="heart" transform="translate(1064.117 3340.961)">
       <g id="Group_33" data-name="Group 33" transform="translate(10.791 55.859)">
         <g id="Group_32" data-name="Group 32">
