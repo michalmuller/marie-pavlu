@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/img/equipment.55125b8e.svg"
   },
   {
-    "revision": "5b8b4daa63e128e556e9a41f2cdd27e5",
+    "revision": "6cdf46ec2aee5672e55199e3367d4c5b",
     "url": "/index.html"
   },
   {
