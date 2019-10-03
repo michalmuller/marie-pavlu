@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/img/cpr.2466cde8.svg"
   },
   {
-    "revision": "e8cd6241b323c1664a1b",
-    "url": "/js/app.97c57a17.js"
+    "revision": "ca719055e2604c87c761",
+    "url": "/js/app.e8382342.js"
   },
   {
     "revision": "fdd7518ec8a366e8a859a5d92f264b0b",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/img/equipment.55125b8e.svg"
   },
   {
-    "revision": "6cdf46ec2aee5672e55199e3367d4c5b",
+    "revision": "8b5f9d39eb8e0c4e49663629f8e1546a",
     "url": "/index.html"
   },
   {
@@ -144,11 +144,15 @@ self.__precacheManifest = [
     "url": "/img/alternative.ef74ce4b.svg"
   },
   {
+    "revision": "f1aa1b84c3a86de3da741182da47ff3c",
+    "url": "/files/vitamin_C.pdf"
+  },
+  {
     "revision": "0ab179606a66399908e1",
     "url": "/css/chunk-vendors.07cc82bb.css"
   },
   {
-    "revision": "e8cd6241b323c1664a1b",
-    "url": "/css/app.cba7ffa8.css"
+    "revision": "ca719055e2604c87c761",
+    "url": "/css/app.8e23eb31.css"
   }
 ];

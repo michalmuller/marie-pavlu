@@ -46,12 +46,18 @@
           >Jsme příznivci celostní a psychosomatické medicíny. Poskytujeme v těchto oborech konzultace a následnou péči u prověřených specialistů na čínskou a alternativní medicínu.</p>
           <p class="text-secondary-text pt-4">
             Nadstandartně, v případě zájmu, v ordinaci aplikujeme
-            <b>infúze s vysokými dávkami vitaminu C</b> , které jsou vhodným doplňkem
+            <b>infúze s vysokými dávkami vitamínu C</b> , které jsou vhodným doplňkem
             pro posílení imunity a prevencí proti infekčním onemocněním, alergiím a pro celkovou regeneraci organismu.
+            <br />Pro více informací o vitamínu C
+            <a
+              class="text-primary-text font-bold border-black border-b-2 py-1"
+              target="_blank"
+              href="./files/vitamin_C.pdf"
+            >klikněte zde.</a>
           </p>
           <div class="mt-12">
             <a
-              class="bg-pink hover:bg-dark-pink py-2 px-10 rounded font-bold text-white"
+              class="bg-pink hover:bg-dark-pink py-2 pb-3 px-10 rounded font-bold text-white"
               v-smooth-scroll="{ duration: 1200,  offset: -68 }"
               href="#contact"
             >Kontakt</a>

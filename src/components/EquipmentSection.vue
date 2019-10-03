@@ -55,7 +55,7 @@
       </equipment>
       <button
         @click="pricesModalShowing=true"
-        class="bg-pink hover:bg-dark-pink py-2 px-10 rounded font-bold text-white outline-none"
+        class="bg-pink hover:bg-dark-pink py-2 pb-3 px-10 rounded font-bold text-white outline-none"
         style="margin-left:70px"
       >Zobrazit Ceník</button>
     </div>
