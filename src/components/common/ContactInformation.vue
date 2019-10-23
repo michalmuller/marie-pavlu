@@ -40,7 +40,7 @@ export default {
     },
     openMail(e) {
       if (e == "mail") {
-        window.location = "mailto:marie.augustinova@seznam.cz";
+        window.location = "mailto:ordinace.medikva@gmail.com";
       }
     }
   }
