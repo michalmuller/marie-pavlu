@@ -4,7 +4,12 @@
       <img class="mt-24" src="../../public/img/equipment.svg" alt />
     </div>
     <div class="sm:w-3/5 w-full sm:pl-10 pl-4 pr-4 sm:pr-0">
-      <h1 class="font-bold text-3xl mb-8">Vybavení a Služby</h1>
+      <h1 class="font-bold text-3xl mb-5">Vybavení a Služby</h1>
+      <news class="mb-8">
+        <p
+          class="px-3"
+        >nově nabízíme parafínové zábaly, rašelinové zábaly, baňkování, pro pacienty ordinace acces bars (500kč za terapii).</p>
+      </news>
 
       <equipment title="Očkování" :iconPath="require('../../public/img/icons/syringe.svg')">
         <template v-slot:text>
@@ -111,8 +116,9 @@
 // v-on:click.native="pricesModalShowing= !pricesModalShowing"
 import Equipment from "./common/Equipment";
 import Modal from "./common/Modal";
+import News from "./common/News";
 export default {
-  components: { Equipment, Modal },
+  components: { Equipment, Modal, News },
   data() {
     return {
       pricesModalShowing: false,

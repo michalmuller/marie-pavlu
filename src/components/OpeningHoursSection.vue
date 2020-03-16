@@ -2,6 +2,9 @@
   <div id="opening-hours" class="container flex flex-wrap flex-row my-16">
     <h1 class="w-full text-3xl font-bold mx-4 sm:mx-0">Ordinační hodiny</h1>
     <p v-if="openState != 'zavřeno' " class="text-lg mt-2 w-full">právě: {{openState}}</p>
+
+    
+    
     <div class="flex flex-wrap lg:flex-no-wrap mx-4 sm:mx-0">
       <div class="lg:w-1/2 w-full lg:mr-10">
         <h3 class="text-xl mt-8 font-bold">Poliklinika I, Poštovní 2428, Jablonec nad Nisou</h3>
@@ -78,7 +81,7 @@ export default {
       jablonec: [
         {
           name: "Pondělí",
-          hours: "9-13 pro akutní, 13-15 pro zvané"
+          hours: "9-12 pro akutní, 12-15 pro zvané"
         },
         {
           name: "Úterý",
@@ -86,7 +89,7 @@ export default {
         },
         {
           name: "Středa",
-          hours: "9-13 pro akutní, 13-15 pro zvané"
+          hours: "9-12 pro akutní, 12-15 pro zvané"
         },
         {
           name: "Čtvrtek",
@@ -94,7 +97,7 @@ export default {
         },
         {
           name: "Pátek",
-          hours: "9-13 pro akutní, 13-15 pro zvané"
+          hours: "9-12 pro akutní, 12-15 pro zvané"
         }
       ],
       janov: [

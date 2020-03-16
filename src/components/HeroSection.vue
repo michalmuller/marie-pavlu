@@ -21,10 +21,13 @@
               href="https://www.google.com/maps/place/Janov+nad+Nisou+514,+468+11+Janov+nad+Nisou,+Czechia/@50.7729918,15.1655906,17z/data=!3m1!4b1!4m5!3m4!1s0x470934a6f0a7ecc7:0x206a5349c69adfd6!8m2!3d50.7729884!4d15.1677793"
             >Janov nad Nisou, 514.</a>
           </div>
-          <h3 class="font-bold mt-10 md:w-5/6 lg:w-3/5 text-lg">
+          <h3 class="font-bold mt-10 md:w-5/6 lg:w-3/5 text-lg" style="max-width:370px">
             V březnu 2019 jsme převzali pacienty od
-            <br />MUDr. Milana Kvasničky
+            MUDr. Milana Kvasničky
           </h3>
+          <news class="mt-6">
+            <p class="px-3">nově smlouvy s pojišťovnou 201 (vojenská + OZP)</p>
+          </news>
         </div>
       </div>
     </div>
@@ -63,8 +66,9 @@
 
 <script>
 import Card from "./common/Card";
+import News from "./common/News";
 export default {
-  components: { Card }
+  components: { Card, News }
 };
 </script>
 

@@ -1,6 +1,7 @@
 <template>
   <div>
     <hero-section></hero-section>
+    <announcements></announcements>
     <opening-hours-section></opening-hours-section>
     <specialization-section></specialization-section>
     <equipment-section></equipment-section>
@@ -12,6 +13,7 @@
 
 <script>
 import HeroSection from "@/components/HeroSection";
+import Announcements from "@/components/announcementsSection";
 import OpeningHoursSection from "@/components/OpeningHoursSection";
 import SpecializationSection from "@/components/SpecializationSection";
 import EquipmentSection from "@/components/EquipmentSection";
@@ -27,6 +29,7 @@ export default {
     EquipmentSection,
     ContactSection,
     TestimonialsSection,
+    Announcements,
     AnotherFooter
   },
 
