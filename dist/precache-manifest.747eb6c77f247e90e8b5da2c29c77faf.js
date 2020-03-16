@@ -1,27 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "86eeffb7664660c315265695ab83bd01",
-    "url": "/img/surgeon.86eeffb7.svg"
+    "revision": "e14134a03b5ddaae696f",
+    "url": "/css/app.8acb29d0.css"
   },
   {
-    "revision": "b8d7f7b027d85326fd57e1c2b2dd7a7d",
-    "url": "/img/alternative.jpg"
+    "revision": "e14134a03b5ddaae696f",
+    "url": "/js/app.7d903edb.js"
   },
   {
-    "revision": "7e97847174a1185d4e5fbdc38aa18d38",
-    "url": "/img/c-infusion.jpg"
+    "revision": "cf775d76296b33485a4f",
+    "url": "/css/chunk-vendors.c4818621.css"
   },
   {
-    "revision": "0ab179606a66399908e1",
+    "revision": "cf775d76296b33485a4f",
     "url": "/js/chunk-vendors.8098bd93.js"
   },
   {
     "revision": "531986b980d301cb381474eec9cd9561",
     "url": "/img/medical-book.531986b9.svg"
-  },
-  {
-    "revision": "dacb4e03d5bc42242949cf4f2a77b5b0",
-    "url": "/img/hero.dacb4e03.jpg"
   },
   {
     "revision": "b03f8144266d604bbf8f5b3857b23f90",
@@ -76,12 +72,12 @@ self.__precacheManifest = [
     "url": "/img/cpr.2466cde8.svg"
   },
   {
-    "revision": "ee85a5f49bda8f541c25",
-    "url": "/js/app.115d1fff.js"
+    "revision": "86eeffb7664660c315265695ab83bd01",
+    "url": "/img/surgeon.86eeffb7.svg"
   },
   {
-    "revision": "fdd7518ec8a366e8a859a5d92f264b0b",
-    "url": "/img/diabetes.jpg"
+    "revision": "ef74ce4b034d2e6195b724767385bd9a",
+    "url": "/img/alternative.ef74ce4b.svg"
   },
   {
     "revision": "596a775ac6c2c0a143a33a1d8ca87702",
@@ -90,6 +86,10 @@ self.__precacheManifest = [
   {
     "revision": "8f7e7820aecaaf491f46eba449838993",
     "url": "/img/phone.8f7e7820.svg"
+  },
+  {
+    "revision": "dacb4e03d5bc42242949cf4f2a77b5b0",
+    "url": "/img/hero.dacb4e03.jpg"
   },
   {
     "revision": "865a82f711f3e6e50a2b6c36effedb62",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/img/equipment.55125b8e.svg"
   },
   {
-    "revision": "a9f1e69718011db5fa793bc888752ce4",
+    "revision": "8d059b17207c0d1e23aa505ce5988656",
     "url": "/index.html"
   },
   {
@@ -136,23 +136,23 @@ self.__precacheManifest = [
     "url": "/img/janov-photo.jpg"
   },
   {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
-    "url": "/robots.txt"
-  },
-  {
-    "revision": "ef74ce4b034d2e6195b724767385bd9a",
-    "url": "/img/alternative.ef74ce4b.svg"
-  },
-  {
     "revision": "f1aa1b84c3a86de3da741182da47ff3c",
     "url": "/files/vitamin_C.pdf"
   },
   {
-    "revision": "0ab179606a66399908e1",
-    "url": "/css/chunk-vendors.07cc82bb.css"
+    "revision": "fdd7518ec8a366e8a859a5d92f264b0b",
+    "url": "/img/diabetes.jpg"
   },
   {
-    "revision": "ee85a5f49bda8f541c25",
-    "url": "/css/app.58676e27.css"
+    "revision": "7e97847174a1185d4e5fbdc38aa18d38",
+    "url": "/img/c-infusion.jpg"
+  },
+  {
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "url": "/robots.txt"
+  },
+  {
+    "revision": "b8d7f7b027d85326fd57e1c2b2dd7a7d",
+    "url": "/img/alternative.jpg"
   }
 ];
