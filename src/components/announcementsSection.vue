@@ -1,7 +1,7 @@
 <template>
   <div id="announcements" class="bg-white">
-    <div class="container flex flex-wrap justify-between flex-row pt-16 px-4 sm:px-0">
-      <!-- <div class="w-full">
+    <!-- <div class="container flex flex-wrap justify-between flex-row pt-16 px-4 sm:px-0">
+      <div class="w-full">
         <h1 class="font-bold text-red text-3xl underline">OPATŘENÍ PROTI ŠÍŘENÍ KORONAVIRU !</h1>
         <ul class="list-decimal pl-4">
           <li
@@ -24,8 +24,8 @@
             class="pt-4 text-secondary-text"
           >Vzhledem k plošnému nedostatku ochranných pomůcek je možné, že dojde k dočasnému omezení provozu ordinace. Sledujte prosím aktuální informace na dveřích naší ordinace nebo na webových stránkách</li>
         </ul>
-      </div>-->
-      <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded text-center">
+    </div>
+    <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded text-center">
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold px-6"
         >Ošetření pacientů pouze po telefonickém objednání</h2>
@@ -35,7 +35,7 @@
         >Dovolená 1.7 - 3.8.2020 - zástup MUDr. Olga Svobodová, Dolní náměstí. (pouze akutní případy) Požadavky na léky ev. formou sms na tel: 601 538 013 &#128522</p>
         <p class="pt-4 font-bold text-2xl">Děkujeme !</p>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
