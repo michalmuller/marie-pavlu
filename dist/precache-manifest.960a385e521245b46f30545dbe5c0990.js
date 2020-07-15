@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e14134a03b5ddaae696f",
+    "revision": "4474c6c5e62f93878f96",
     "url": "/css/app.8acb29d0.css"
   },
   {
-    "revision": "e14134a03b5ddaae696f",
-    "url": "/js/app.7d903edb.js"
+    "revision": "4474c6c5e62f93878f96",
+    "url": "/js/app.b3e337c2.js"
   },
   {
     "revision": "cf775d76296b33485a4f",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/img/equipment.55125b8e.svg"
   },
   {
-    "revision": "8d059b17207c0d1e23aa505ce5988656",
+    "revision": "a150038eb3b845176fc96d3d0b96f55d",
     "url": "/index.html"
   },
   {
@@ -140,12 +140,12 @@ self.__precacheManifest = [
     "url": "/files/vitamin_C.pdf"
   },
   {
-    "revision": "fdd7518ec8a366e8a859a5d92f264b0b",
-    "url": "/img/diabetes.jpg"
-  },
-  {
     "revision": "7e97847174a1185d4e5fbdc38aa18d38",
     "url": "/img/c-infusion.jpg"
+  },
+  {
+    "revision": "fdd7518ec8a366e8a859a5d92f264b0b",
+    "url": "/img/diabetes.jpg"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
