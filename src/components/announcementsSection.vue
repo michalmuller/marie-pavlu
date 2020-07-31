@@ -30,9 +30,12 @@
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
         >Zástup 3.8 - 7.8 MUDr. Barbora Škývarová</h2>
 
-        <p
-          class="pt-6 font-semibold text-lg px-4 text-secondary-text"
-        >tel: 483 341 217 | 3 patro poliklinika Po-Pá 8-10, Čt 13-15</p>
+        <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
+          tel:
+          <a href="tel:483341217">
+            <b>483 341 217</b>
+          </a> | 3. patro poliklinika Po-Pá 8-10, Čt 13-15
+        </p>
         <p
           class="pt-2 font-semibold text-lg px-4 text-secondary-text"
         >Pouze akutní případy - po telefonické domluvě</p>
@@ -43,17 +46,20 @@
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
         >Zástup 10.8 - 14.8 MUDr. Karel Stuchlík</h2>
 
-        <p
-          class="pt-6 font-semibold text-lg px-4 text-secondary-text"
-        >tel: 602 191 976 | Ordinace Josefův Důl Po-Pá 8-10, St 13-15</p>
+        <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
+          tel:
+          <a href="tel:602191976">
+            <b>602 191 976</b>
+          </a>| Ordinace Josefův Důl Po-Pá 8-10, St 13-15
+        </p>
         <p
           class="pt-2 font-semibold text-lg px-4 text-secondary-text"
         >Pouze akutní případy - po telefonické domluvě</p>
       </div>
-      <p
-        style="margin: 0 auto;"
-        class="pt-8 font-semibold text-2xl text-center"
-      >Požadavky na léky ev. formou sms na tel: 601 538 013</p>
+      <p style="margin: 0 auto;" class="pt-8 font-semibold text-2xl text-center">
+        Požadavky na léky ev. formou sms na tel:
+        <a href="sms:601538013&body=">601 538 013</a>
+      </p>
     </div>
   </div>
 </template>
