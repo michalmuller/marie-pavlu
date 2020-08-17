@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-section></hero-section>
-    <announcements></announcements>
+    <!-- <announcements></announcements> -->
     <opening-hours-section></opening-hours-section>
     <specialization-section></specialization-section>
     <equipment-section></equipment-section>
