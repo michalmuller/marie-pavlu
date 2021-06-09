@@ -1,8 +1,12 @@
 <template>
   <div id="announcements" class="bg-white">
-    <div class="container flex flex-wrap justify-between flex-row pt-16 px-4 sm:px-0">
+    <div
+      class="container flex flex-wrap justify-between flex-row pt-16 px-4 sm:px-0"
+    >
       <div class="w-full">
-        <h1 class="font-bold text-red text-center text-3xl md:text-4xl">DOVOLENÁ 3.8 - 14.8</h1>
+        <h1 class="font-bold text-red text-center text-3xl md:text-4xl">
+          DOVOLENÁ
+        </h1>
         <!-- <ul class="list-decimal pl-4">
           <li
             class="text-secondary-text pt-4"
@@ -28,50 +32,55 @@
       <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
-        >Zástup 3.8 - 7.8 MUDr. Barbora Škývarová</h2>
+        >
+          Zástup 1.7 - 9.7 MUDr. Karel Stuchlík
+        </h2>
 
         <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
           tel:
-          <a href="tel:483341217">
-            <b>483 341 217</b>
-          </a> | 3. patro poliklinika Po-Pá 8-10, Čt 13-15
+          <!-- <a href="tel:483341217"> -->
+          <b>602 191 976</b> / <b>483 306 956</b>
+          <!-- </a> -->
+          | Ordinace Josefův Důl
         </p>
-        <p
-          class="pt-2 font-semibold text-lg px-4 text-secondary-text"
-        >Pouze akutní případy - po telefonické domluvě</p>
+        <!-- <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
+          Pouze akutní případy - po telefonické domluvě
+        </p> -->
       </div>
 
       <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
-        >Zástup 10.8 - 14.8 MUDr. Karel Stuchlík</h2>
+        >
+          Zástup 26.7 - 6.8. MUDr. Olga Svobodová
+        </h2>
 
         <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
           tel:
-          <a href="tel:602191976">
-            <b>602 191 976</b>
-          </a>| Ordinace Josefův Důl Po-Pá 8-10, St 13-15
+          <a href="tel:483313262"> <b>483 313 262</b> </a> | Dolní náměstí
         </p>
-        <p
-          class="pt-2 font-semibold text-lg px-4 text-secondary-text"
-        >Pouze akutní případy - po telefonické domluvě</p>
+        <!-- <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
+          Pouze akutní případy - po telefonické domluvě
+        </p> -->
       </div>
-      <p style="margin: 0 auto;" class="pt-8 font-semibold text-2xl text-center">
+      <!-- <p
+        style="margin: 0 auto;"
+        class="pt-8 font-semibold text-2xl text-center"
+      >
         Požadavky na léky ev. formou sms na tel:
         <a href="sms:601538013&body=">601 538 013</a>
-      </p>
+      </p> -->
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Announcements",
+  name: 'Announcements',
   data() {
     return {};
-  }
+  },
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

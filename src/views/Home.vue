@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-section></hero-section>
-    <!-- <announcements></announcements> -->
+    <announcements></announcements>
     <opening-hours-section></opening-hours-section>
     <specialization-section></specialization-section>
     <equipment-section></equipment-section>
@@ -12,16 +12,16 @@
 </template>
 
 <script>
-import HeroSection from "@/components/HeroSection";
-import Announcements from "@/components/announcementsSection";
-import OpeningHoursSection from "@/components/OpeningHoursSection";
-import SpecializationSection from "@/components/SpecializationSection";
-import EquipmentSection from "@/components/EquipmentSection";
-import ContactSection from "@/components/ContactSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import AnotherFooter from "@/components/common/AnotherFooter";
+import HeroSection from '@/components/HeroSection';
+import Announcements from '@/components/announcementsSection';
+import OpeningHoursSection from '@/components/OpeningHoursSection';
+import SpecializationSection from '@/components/SpecializationSection';
+import EquipmentSection from '@/components/EquipmentSection';
+import ContactSection from '@/components/ContactSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
+import AnotherFooter from '@/components/common/AnotherFooter';
 export default {
-  name: "home",
+  name: 'home',
   components: {
     HeroSection,
     OpeningHoursSection,
@@ -30,15 +30,14 @@ export default {
     ContactSection,
     TestimonialsSection,
     Announcements,
-    AnotherFooter
+    AnotherFooter,
   },
 
   data() {
     return {};
   },
   methods: {},
-  computed: {}
+  computed: {},
 };
 </script>
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
