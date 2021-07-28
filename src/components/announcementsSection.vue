@@ -29,7 +29,7 @@
           >Vzhledem k plošnému nedostatku ochranných pomůcek je možné, že dojde k dočasnému omezení provozu ordinace. Sledujte prosím aktuální informace na dveřích naší ordinace nebo na webových stránkách</li>
         </ul>-->
       </div>
-      <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
+      <!-- <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
         >
@@ -38,15 +38,15 @@
 
         <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
           tel:
-          <!-- <a href="tel:483341217"> -->
+          <a href="tel:483341217">
           <b>602 191 976</b> / <b>483 306 956</b>
-          <!-- </a> -->
+          </a>
           | Ordinace Josefův Důl
         </p>
-        <!-- <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
+        <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
           Pouze akutní případy - po telefonické domluvě
-        </p> -->
-      </div>
+        </p>
+      </div> -->
 
       <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
         <h2
