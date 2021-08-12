@@ -3,11 +3,11 @@
     <div
       class="container flex flex-wrap justify-between flex-row pt-16 px-4 sm:px-0"
     >
-      <div class="w-full">
+      <!-- <div class="w-full">
         <h1 class="font-bold text-red text-center text-3xl md:text-4xl">
           DOVOLENÁ
-        </h1>
-        <!-- <ul class="list-decimal pl-4">
+        </h1> -->
+      <!-- <ul class="list-decimal pl-4">
           <li
             class="text-secondary-text pt-4"
           >Všichni prosím omezte pobyt mimo domov na nezbytné mimimum.</li>
@@ -28,7 +28,7 @@
             class="pt-4 text-secondary-text"
           >Vzhledem k plošnému nedostatku ochranných pomůcek je možné, že dojde k dočasnému omezení provozu ordinace. Sledujte prosím aktuální informace na dveřích naší ordinace nebo na webových stránkách</li>
         </ul>-->
-      </div>
+      <!-- </div> -->
       <!-- <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
@@ -48,7 +48,7 @@
         </p>
       </div> -->
 
-      <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
+      <!-- <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
         >
@@ -58,11 +58,11 @@
         <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
           tel:
           <a href="tel:483313262"> <b>483 313 262</b> </a> | Dolní náměstí
-        </p>
-        <!-- <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
+        </p> -->
+      <!-- <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
           Pouze akutní případy - po telefonické domluvě
         </p> -->
-      </div>
+      <!-- </div> -->
       <!-- <p
         style="margin: 0 auto;"
         class="pt-8 font-semibold text-2xl text-center"
