@@ -1,8 +1,14 @@
 <template>
-  <div class="flex w-full bg-light-blue py-5 text-footer-color-text text-sm">
-    <div class="container flex justify-between">
+  <div class="flex  w-full bg-light-blue py-5 text-footer-color-text text-sm">
+    <div
+      class="container flex-col-reverse md:flex-row flex justify-between items-center"
+    >
       <p>All rights reserved &copy; {{ year }}</p>
-      <a class="company-link-a" target="_blank" href="https://bananappeal.com/">
+      <a
+        class="company-link-a py-3 md:py-0"
+        target="_blank"
+        href="https://bananappeal.com/"
+      >
         web vytvořil:
         <span class="company-link">
           <svg
