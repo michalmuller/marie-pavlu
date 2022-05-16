@@ -154,8 +154,12 @@ export default {
             price: "300,-"
           },
           {
+            name: "výpis z dokumentace",
+            price: "300,-"
+          },
+          {
             name: "INFÚZE VITAMÍNU C",
-            price: "700,-"
+            price: "900,-"
           }
         ],
         column2: [
@@ -252,6 +256,19 @@ export default {
                 name: "NAD 60 LET",
                 price: "300,-"
               }
+            ]
+          },
+          {
+            name: "Doplňkové služby",
+            list: [
+              {
+                name: "Access Bars",
+                price: "600,-"
+              },
+              {
+                name: "Access Bars tělesné procesy",
+                price: "600,-"
+              },
             ]
           },
           {

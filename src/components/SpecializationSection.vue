@@ -48,12 +48,13 @@
             Nadstandartně, v případě zájmu, v ordinaci aplikujeme
             <b>infúze s vysokými dávkami vitamínu C</b> , které jsou vhodným doplňkem
             pro posílení imunity a prevencí proti infekčním onemocněním, alergiím a pro celkovou regeneraci organismu.
-            <br />Pro více informací o vitamínu C
+            Pro více informací
             <a
               class="text-primary-text font-bold border-black border-b-2 py-1"
               target="_blank"
               href="./files/vitamin_C.pdf"
             >klikněte zde.</a>
+            <br/> <br/> Nově nabízíme <b>Access Bars</b> a také <b>Access Bars tělesné procesy.</b>
           </p>
           <div class="mt-12">
             <a
