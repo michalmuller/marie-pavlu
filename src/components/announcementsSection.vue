@@ -5,7 +5,7 @@
     >
       <div class="w-full">
         <h1 class="font-bold text-red text-center text-3xl md:text-4xl">
-          DOVOLENÁ
+          DOVOLENÁ 1.8 - 5.8
         </h1>
         <!-- 
       <ul class="list-decimal pl-4">
@@ -35,19 +35,19 @@
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
         >
-          Zástup 1.7 - 10.7 MUDr. Karel Stuchlík
+          Zástup MUDr. Olga Svobodová
         </h2>
 
         <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
           tel:
-          <a href="tel:483341217">
-          <b>602 191 976</b>
+          <a href="tel:483313262">
+            <b>483 313 262</b>
           </a>
-          | Ordinace Josefův Důl
         </p>
-        <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
+        <!-- <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
           Požadavky na recepty možno zasílat formou sms na tel: <b>601 538 013</b>
         </p>
+        -->
       </div> 
       <!-- 
       <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
