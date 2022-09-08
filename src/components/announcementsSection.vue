@@ -5,7 +5,7 @@
     >
       <div class="w-full">
         <h1 class="font-bold text-red text-center text-3xl md:text-4xl">
-          DOVOLENÁ 1.8 - 5.8
+          DOVOLENÁ 8.9 - 9.9
         </h1>
         <!-- 
       <ul class="list-decimal pl-4">
@@ -35,13 +35,13 @@
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
         >
-          Zástup MUDr. Olga Svobodová
+          Zástup MUDr. Sabina Ticha
         </h2>
 
         <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
           tel:
-          <a href="tel:483313262">
-            <b>483 313 262</b>
+          <a href="tel:483705519">
+            <b>483 705 519</b>
           </a>
         </p>
         <!-- <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
