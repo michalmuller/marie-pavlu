@@ -5,7 +5,7 @@
     >
       <div class="w-full">
         <h1 class="font-bold text-red text-center text-3xl md:text-4xl">
-          DOVOLENÁ 8.9 - 9.9
+          UPOZORNĚNÍ
         </h1>
         <!-- 
       <ul class="list-decimal pl-4">
@@ -31,18 +31,18 @@
         </ul> 
          -->
       </div> 
-      <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center">
+      <div class="bg-light-blue w-full pt-6 pb-8 mt-8 rounded-lg text-center flex flex-col items-center">
         <h2
           class="text-2xl md:text-3xl font-bold md:font-semibold underline px-6"
         >
-          Zástup MUDr. Sabina Ticha
+          úpravy prostor v ordinaci na Janově
         </h2>
 
-        <p class="pt-6 font-semibold text-lg px-4 text-secondary-text">
-          tel:
-          <a href="tel:483705519">
+        <p class="pt-6 font-semibold text-lg px-4 text-secondary-text max-w-3xl text-cente ">
+           Z technických důvodu ordinace nyní jen na poliklinice Jablonec n.n  Odběry krve ve čtvrtek - prosím domluvit jinou cestou (poliklinika nebo nemocnice JBC) 
+           <!--<a href="tel:483705519">
             <b>483 705 519</b>
-          </a>
+          </a> -->
         </p>
         <!-- <p class="pt-2 font-semibold text-lg px-4 text-secondary-text">
           Požadavky na recepty možno zasílat formou sms na tel: <b>601 538 013</b>
