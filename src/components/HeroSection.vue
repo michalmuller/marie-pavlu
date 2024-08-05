@@ -27,7 +27,7 @@
           </div>
           <news class="mt-6">
             <p class="px-3">
-              V případě, že nezvedáme telefon, veškéré vaše požadavky na léky,
+              V případě, že nezvedáme telefon, veškeré vaše požadavky na léky,
               objednání nebo výsledky prosím pište formou SMS na telefon:
               <b>601 538 013</b>
             </p>
