@@ -1,22 +1,31 @@
 <template>
   <div id="opening-hours" class="container flex flex-wrap flex-row my-16">
     <h1 class="w-full text-3xl font-bold mx-4 sm:mx-0">Ordinační hodiny</h1>
-    <p v-if="openState != 'zavřeno' " class="text-lg mt-2 w-full">právě: {{openState}}</p>
+    <p v-if="openState != 'zavřeno'" class="text-lg mt-2 w-full">
+      právě: {{ openState }}
+    </p>
 
-    
-    
     <div class="flex flex-wrap lg:flex-no-wrap mx-4 sm:mx-0">
       <div class="lg:w-1/2 w-full lg:mr-10">
-        <h3 class="text-xl mt-8 font-bold">Poliklinika I, Poštovní 2428, Jablonec nad Nisou</h3>
+        <h3 class="text-xl mt-8 font-bold">
+          Poliklinika I, Poštovní 2428, Jablonec nad Nisou
+        </h3>
         <!-- <p class="mt-2 text-secondary-text">Poliklinika I, Poštovní 2428, Jablonec nad Nisou</p> -->
-        <opening-hours-card label="Jablonec nad Nisou" :time="jablonec"></opening-hours-card>
+        <opening-hours-card
+          label="Jablonec nad Nisou"
+          :time="jablonec"
+        ></opening-hours-card>
         <div class="flex mt-8 items-start">
-          <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
+          <img
+            class="w-12 mr-4"
+            src="../../public/img/icons/test-tube.svg"
+            alt
+          />
           <div>
             <p class="font-semibold text-xl">Odběry krve Jablonec n. N.</p>
             <p class="mt-1 text-secondary-text">
               Úterý, středa, čtvrtek 7-9 hod.
-              <br />Odběrova místnost 4. patro poliklinika Jablonec.
+              <br />Odběrova místnost - Immunoflow 4. patro poliklinika.
             </p>
           </div>
         </div>
@@ -25,12 +34,19 @@
       <div class="lg:w-1/2 w-full lg:ml-10">
         <h3 class="text-xl mt-8 font-bold">Janov Nad Nisou 514</h3>
         <!-- <p class="mt-2 text-secondary-text">Janov Nad Nisou 514</p> -->
-        <opening-hours-card label="Janov nad Nisou" :time="janov"></opening-hours-card>
+        <opening-hours-card
+          label="Janov nad Nisou"
+          :time="janov"
+        ></opening-hours-card>
         <div class="flex items-start mt-8">
-          <img class="w-12 mr-4" src="../../public/img/icons/test-tube.svg" alt />
+          <img
+            class="w-12 mr-4"
+            src="../../public/img/icons/test-tube.svg"
+            alt
+          />
           <div>
             <p class="font-semibold text-xl">Odběry krve Janov n. N.</p>
-            <p class="mt-1 text-secondary-text">Čtvrtek 7-9 hod.</p>
+            <p class="mt-1 text-secondary-text">Čtvrtek 7:30-9 hod.</p>
           </div>
         </div>
       </div>
@@ -51,77 +67,77 @@ export default {
       openingHours: {
         0: {
           open: "06:00",
-          close: "06:00"
+          close: "06:00",
         },
         1: {
           open: "09:00",
-          close: "13:00"
+          close: "13:00",
         },
         2: {
           open: "12:00",
-          close: "17:00"
+          close: "17:00",
         },
         3: {
           open: "09:00",
-          close: "13:00"
+          close: "13:00",
         },
         4: {
           open: "07:00",
-          close: "12:00"
+          close: "12:00",
         },
         5: {
           open: "09:00",
-          close: "13:00"
+          close: "13:00",
         },
         6: {
           open: "06:00",
-          close: "06:00"
-        }
+          close: "06:00",
+        },
       },
       jablonec: [
         {
           name: "Pondělí",
-          hours: "9-12 pro akutní, 12-15 pro zvané"
+          hours: "9-10 pro akutní, 10-15 pro zvané",
         },
         {
           name: "Úterý",
-          hours: "Ordinace Janov n/Nisou"
+          hours: "Ordinace Janov n/Nisou",
         },
         {
           name: "Středa",
-          hours: "9-12 pro akutní, 12-15 pro zvané"
+          hours: "9-10 pro akutní, 10-15 pro zvané",
         },
         {
           name: "Čtvrtek",
-          hours: "Ordinace Janov n/Nisou"
+          hours: "Ordinace Janov n/Nisou",
         },
         {
           name: "Pátek",
-          hours: "9-12 pro akutní, 12-15 pro zvané"
-        }
+          hours: "9-10 pro akutní, 10-15 pro zvané",
+        },
       ],
       janov: [
         {
           name: "Pondělí",
-          hours: "Ordinace Jablonec n/Nisou"
+          hours: "Ordinace Jablonec n/Nisou",
         },
         {
           name: "Úterý",
-          hours: "12-17 pro akutní, 17-18 pro zvané"
+          hours: "12-13 pro akutní, 13-18 pro zvané",
         },
         {
           name: "Středa",
-          hours: "Ordinace Jablonec n/Nisou"
+          hours: "Ordinace Jablonec n/Nisou",
         },
         {
           name: "Čtvrtek",
-          hours: "8.30- 12 pro akutní, 12-14 pro zvané"
+          hours: "9-10 pro akutní, 10-14 pro zvané",
         },
         {
           name: "Pátek",
-          hours: "Ordinace Jablonec n/Nisou"
-        }
-      ]
+          hours: "Ordinace Jablonec n/Nisou",
+        },
+      ],
     };
   },
   methods: {
@@ -145,21 +161,20 @@ export default {
         var time = hours + ":" + minutes;
         this.timeNow = time;
       }, 1000);
-    }
+    },
   },
   computed: {
     dayNow() {
       var d = new Date();
       var n = d.getDay();
       return n;
-    }
+    },
   },
   mounted() {
     this.now();
     this.openAtTheMoment();
-  }
+  },
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

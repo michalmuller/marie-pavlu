@@ -6,7 +6,7 @@
         <div
           class="lg:w-1/2 md:w-2/3 sm:w-2/3 w-4/5 mt-12 px-10 py-8 introduction rounded-lg rounded-r-none"
         >
-          <h1 class="text-3xl font-bold">MUDr. Mariie Pavlů</h1>
+          <h1 class="text-3xl font-bold">MUDr. Marie Pavlů</h1>
           <h2 class="text-xl font-semibold mb-4">
             Praktický lékař pro dospělé
           </h2>
@@ -25,14 +25,12 @@
               >Janov nad Nisou, 514.</a
             >
           </div>
-          <h3
-            class="font-bold mt-10 md:w-5/6 lg:w-3/5 text-lg"
-            style="max-width: 370px"
-          >
-            V březnu 2019 jsme převzali pacienty od MUDr. Milana Kvasničky
-          </h3>
           <news class="mt-6">
-            <p class="px-3">nově smlouvy s pojišťovnou 201 (vojenská + OZP)</p>
+            <p class="px-3">
+              V případě, že nezvedáme telefon, veškéré vaše požadavky na léky,
+              objednání nebo výsledky prosím pište formou SMS na telefon:
+              <b>601 538 013</b>
+            </p>
           </news>
         </div>
       </div>
