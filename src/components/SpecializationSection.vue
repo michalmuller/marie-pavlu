@@ -68,11 +68,11 @@
             <b>Access Bars tělesné procesy.</b>
           </p>
           <p class="text-secondary-text pt-4">
-            Další službou je také psychologické poradenství formou coachingu.
-            transformační psychologie
+            Další službou je také <b>psychologické poradenství</b> formou
+            coachingu transformační psychologie.
           </p>
           <p class="text-secondary-text pt-4">
-            Provádíme test Omega 3 mastných kyselin.
+            Provádíme <b>test Omega 3 mastných kyselin</b>.
           </p>
           <div class="mt-12">
             <a
