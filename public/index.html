@@ -10,7 +10,10 @@
 
     gtag('config', 'UA-146877504-1');
   </script>
-
+<style>
+  /* POP-UP Dovolená */
+ .popup-overlay{position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:rgba(0,0,0,0.5);display:flex;justify-content:center;align-items:center;z-index:9999}.popup-content{background:#fff;border-radius:12px;padding:2rem;width:90%;max-width:500px;box-shadow:0 10px 25px rgba(0,0,0,0.25);font-family:'Segoe UI',sans-serif;color:#333;position:relative;animation:fadeIn 0.3s ease}.popup-close{position:absolute;top:12px;right:16px;background:none;border:none;font-size:1.5rem;cursor:pointer;color:#888}.popup-close:hover{color:#000}.popup-content h2{margin-top:0;font-size:1.6rem;color:#00796B}.popup-content p,.popup-content li{margin:1em 0;line-height:1.6}.popup-content ul{padding-left:1.2em;list-style-type:disc;margin:0}@keyframes fadeIn{from{opacity:0;transform:scale(0.95)}to{opacity:1;transform:scale(1)}}
+</style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -27,6 +30,21 @@
   <noscript>
     <strong>Je nám líto, ale tato stránka nefunguje bez JavaScriptu. Prosím aktivujte ho.</strong>
   </noscript>
+  <!-- POP-UP Dovolená-->
+  <div id="popup" class="popup-overlay">
+    <div class="popup-content">
+      <button class="popup-close" onclick="document.getElementById('popup').style.display='none'">×</button>
+      <h2>Dovolená ordinace</h2>
+      <p><strong>21. 7. – 8. 8. 2025</strong><br>Ordinace uzavřena z důvodu dovolené.</p>
+
+      <p><strong>Zástup:</strong></p>
+      <ul>
+        <li><strong>21. 7. – 25. 7.</strong><br>MUDr. Stuchlík – <a href="tel:483306959">483 306 959</a></li>
+        <li><strong>28. 7. – 8. 8.</strong><br>MUDr. Tichá – <a href="tel:483705519">483 705 519</a></li>
+      </ul>
+    </div>
+  </div>
+
   <div id="app"></div>
   <!-- built files will be auto injected -->
 </body>
